@@ -20,6 +20,7 @@ public sealed partial class Player : Component, Component.IDamageable, PlayerCon
 	[Property, Range( 0, 100 ), Sync( SyncFlags.FromHost )] public float MaxArmour { get; set; } = 100;
 
 	[Sync( SyncFlags.FromHost )] public PlayerData PlayerData { get; set; }
+	[Property] public GameObject smokeMouth { get; set; }
 
 	public Transform EyeTransform
 	{
@@ -96,6 +97,7 @@ public sealed partial class Player : Component, Component.IDamageable, PlayerCon
 	{
 		// we are only interested in the bones of the player, not anything that may be attached to it.
 		var playerRenderer = Body.GetComponent<SkinnedModelRenderer>();
+		Log.Info($"Player : {playerRenderer}");
 		var bones = playerRenderer.Model.Bones;
 
 		var ragdollRenderer = ragdoll.GetComponent<SkinnedModelRenderer>();
@@ -143,6 +145,8 @@ public sealed partial class Player : Component, Component.IDamageable, PlayerCon
 		var mainBody = go.Components.Create<SkinnedModelRenderer>();
 		mainBody.CopyFrom( Controller.Renderer );
 		mainBody.UseAnimGraph = false;
+
+		Log.Info($"Player : {mainBody}");
 
 		// copy the clothes
 		foreach ( var clothing in Controller.Renderer.GameObject.Children.Where( x => x.Tags.Has( "clothing" ) ).SelectMany( x => x.Components.GetAll<SkinnedModelRenderer>() ) )

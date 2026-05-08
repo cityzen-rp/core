@@ -1,0 +1,101 @@
+{
+  "RootObject": {
+    "__guid": "0a1dcdd8-4d66-4369-a64e-d018ed3933ad",
+    "__version": 2,
+    "Flags": 0,
+    "Name": "vape",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkFlags": 0,
+    "NetworkOrphaned": 0,
+    "NetworkTransmit": true,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "VapeWeapon",
+        "__guid": "2d0fc334-6080-4663-b742-af2b5f812d34",
+        "__enabled": true,
+        "Flags": 0,
+        "CanCancelReload": true,
+        "ClipContents": 20,
+        "ClipMaxSize": 30,
+        "DeployTime": 0.5,
+        "DisplayIcon": null,
+        "DisplayName": "Puff",
+        "DroppedGameObject": null,
+        "Handedness": "Right",
+        "HandPose": 0.07,
+        "HoldType": "HoldItem",
+        "IncrementalReloading": false,
+        "ItemPrefab": {
+          "_type": "gameobject",
+          "prefab": "addons/vape/prefabs/item vape.prefab"
+        },
+        "MaxReserveAmmo": 120,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "ParentBone": "hold_r",
+        "ReloadTime": 2.5,
+        "ReserveAmmo": 0,
+        "SecondaryInput": {
+          "IsEnabled": false,
+          "Action": null
+        },
+        "ShootInput": {
+          "IsEnabled": false,
+          "Action": null
+        },
+        "StartingAmmo": 0,
+        "UsesAmmo": true,
+        "UsesClips": true,
+        "Value": 0,
+        "VapeSmoke": "addons/vape/sounds/vape drag.sound",
+        "VapeSmokeExhale": "addons/vape/sounds/vape exhale.sound",
+        "ViewModelPrefab": {
+          "_type": "gameobject",
+          "prefab": "addons/vape/prefabs/vape vm.prefab"
+        },
+        "WorldModelPrefab": {
+          "_type": "gameobject",
+          "prefab": "addons/vape/prefabs/vape_wm.prefab"
+        }
+      }
+    ],
+    "Children": [],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": false,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": "",
+        "CustomBounds": false
+      }
+    },
+    "__variables": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}

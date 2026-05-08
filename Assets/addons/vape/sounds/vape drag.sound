@@ -1,0 +1,45 @@
+{
+  "UI": false,
+  "Volume": "1",
+  "Pitch": "1",
+  "Decibels": 70,
+  "SelectionMode": "Random",
+  "Sounds": [
+    "addons/vape/sounds/vape drag.vsnd"
+  ],
+  "Occlusion": true,
+  "AirAbsorption": true,
+  "Transmission": true,
+  "OcclusionRadius": 64,
+  "DistanceAttenuation": true,
+  "Distance": 1500,
+  "Falloff": [
+    {
+      "x": 0,
+      "y": 1,
+      "in": -0,
+      "out": -0,
+      "mode": "Mirrored"
+    },
+    {
+      "x": 0.2921875,
+      "y": 0.31086117,
+      "in": 0,
+      "out": 0,
+      "mode": "Mirrored"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "in": -0,
+      "out": -0,
+      "mode": "Mirrored"
+    }
+  ],
+  "DefaultMixer": {
+    "Name": "game",
+    "Id": "e2c7bd76-af44-45eb-95d2-8d9a7d494e19"
+  },
+  "__references": [],
+  "__version": 1
+}

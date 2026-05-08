@@ -477,6 +477,8 @@ public sealed class PlayerInventory : Component, IPlayerEvent, ISaveEvents
 			if ( renderer.IsValid() )
 			{
 				renderer.Set( "holdtype", (int)ActiveWeapon.HoldType );
+				renderer.Set( "holdtype_handedness", (int)ActiveWeapon.Handedness );
+				renderer.Set( "holdtype_pose_hand", (float)ActiveWeapon.HandPose );
 			}
 		}
 		else
