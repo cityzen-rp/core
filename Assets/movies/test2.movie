@@ -1,0 +1,2495 @@
+{
+  "EditorData": {
+    "SampleRate": 30,
+    "Duration": 31282,
+    "ExportConfig": null,
+    "Tracks": {
+      "71dba00b-ee0a-4cd4-a255-a1326130318f": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "bb1a71b7-14f7-49cf-9f4f-27bd0fb2c77f",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "b5956078-40f6-43cb-bbd3-67bc5fb69fca": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "69dd782b-be22-41c9-927d-cb63149a427a",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0,0"
+          }
+        ]
+      },
+      "d0817ea7-d2a4-4c7a-bde4-aeab3a2281b5": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "eacd4deb-583c-41b6-8ffb-8bf50b770ad1",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "47b182e3-a434-4cb4-a1c5-3fe41799556a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "93bee1cf-4c32-4382-8ab0-b139dcf71d37",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "dd08a9b4-cfec-4ee8-9dc5-d0903daeef86": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "3e81a522-d1bf-43f2-9031-7b28d27e76e9"
+        },
+        "Name": "ParticleSpriteRenderer",
+        "TargetType": "Sandbox.ParticleSpriteRenderer",
+        "ParentId": "346aeb88-e094-44c3-810b-3096cd908abe"
+      },
+      "c23e2a46-bf90-451b-ad6f-d824b4e0ac24": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "3e4695e2-1f08-4954-a8da-2121626e0b46"
+        },
+        "Name": "SkinnedModelRenderer",
+        "TargetType": "Sandbox.SkinnedModelRenderer",
+        "ParentId": "473056f5-f32d-4f95-9091-d6f903078ef5"
+      },
+      "6ccfb23e-5890-40b7-a897-3bff0ac78a5b": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "fa64fac2-c8de-420d-872f-933d3c8f4e9a",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "e0678cc6-f372-401c-bcf8-c0c6375807ef": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "scale_height",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 1
+          }
+        ]
+      },
+      "bd574f0c-9b7d-4d8d-af0a-c39c21d75be6": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalScale",
+        "TargetType": "Vector3",
+        "ParentId": "c2d3b16e-2c28-4eff-af1a-e1447afce69c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1"
+          }
+        ]
+      },
+      "05e2cab7-d67d-4220-bea8-61cc9e99d206": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "1873f065-b336-4795-94ca-a1e5f12283f4",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0,0,1"
+          }
+        ]
+      },
+      "8587ca92-3d64-4b43-b209-d0f9713dd3ba": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "RenderType",
+        "TargetType": {
+          "$type": "Nested",
+          "DeclaringType": "Sandbox.ModelRenderer",
+          "Name": "ShadowRenderType"
+        },
+        "ParentId": "6cdd5e54-f439-4c4f-9fa0-e6281201a7e7",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "On"
+          }
+        ]
+      },
+      "eacd4deb-583c-41b6-8ffb-8bf50b770ad1": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "e97df486-0a96-4db2-8f57-5978412ce32b"
+        },
+        "Name": "clavicle_R",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "450fad0f-f7a0-4694-8c3b-c1a95f67164d"
+      },
+      "be68edfe-58be-4cfa-a698-3ab6ef8085d4": {
+        "$type": "Property",
+        "Format": "Editor",
+        "Name": "b_grounded",
+        "TargetType": "System.Boolean",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Signal": {
+              "$id": 1,
+              "$type": "HardCut",
+              "Time": 3960,
+              "First": {
+                "$id": 2,
+                "$type": "Constant",
+                "Value": true
+              },
+              "Second": {
+                "$id": 3,
+                "$type": "Samples",
+                "TimeRange": "3960,31282",
+                "SampleRate": 30,
+                "Samples": "H4sIAAAAAAAACnvCgBUw4gbEK8ZpMqni5FmPog0AdoNbMOgAAAA="
+              }
+            }
+          }
+        ]
+      },
+      "26d36af1-a4c3-4971-93b4-6d068cf839f9": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "ea48fa0c-79b7-4069-9956-527c17c4b50b",
+        "Blocks": [
+          {
+            "TimeRange": "1036,1320",
+            "Value": true
+          }
+        ]
+      },
+      "d092beec-bd05-48cd-817b-ca2241bdb928": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "2b8759a8-28c0-4ddb-bbfa-e20f2ec51144",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "9d69192b-5769-4f74-acc8-a8be1f0ba0fb": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "93bee1cf-4c32-4382-8ab0-b139dcf71d37",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0,0,1"
+          }
+        ]
+      },
+      "7726f8d2-e1fb-46f3-8d71-ed9df3840d34": {
+        "$type": "Property",
+        "Format": "Editor",
+        "Name": "IsActive",
+        "TargetType": "System.Boolean",
+        "ParentId": "fa27e24a-6959-4b7f-933f-4cc324175aaa",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Signal": {
+              "$id": 1,
+              "$type": "HardCut",
+              "Time": 8400,
+              "First": {
+                "$id": 2,
+                "$type": "Constant",
+                "Value": true
+              },
+              "Second": {
+                "$id": 3,
+                "$type": "Samples",
+                "TimeRange": "8400,31282",
+                "SampleRate": 30,
+                "Samples": "H4sIAAAAAAAACtvPwMDAwDikAQDDfS9VwwAAAA=="
+              }
+            }
+          }
+        ]
+      },
+      "0ceea7e7-b371-42d0-b918-a04b84bc4a9d": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "RenderType",
+        "TargetType": {
+          "$type": "Nested",
+          "DeclaringType": "Sandbox.ModelRenderer",
+          "Name": "ShadowRenderType"
+        },
+        "ParentId": "49f245b9-f500-4409-9d93-9febd3bc4688",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "On"
+          }
+        ]
+      },
+      "eaab4c9d-c4cb-445b-a47a-9ed7f48231e2": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "holdtype_pose_hand",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 0
+          }
+        ]
+      },
+      "ee7b6e22-328c-46d4-82b0-e6374454bf03": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "8d688e3d-0a2e-4fe4-b1a0-d993e683331a"
+        },
+        "Name": "spine_1",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "2638e3d7-5576-4a0c-ad3c-ac44ace5ce2c"
+      },
+      "83e48531-8e01-47b3-8288-e26321be0102": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Sprite",
+        "TargetType": "Sandbox.Sprite",
+        "ParentId": "4f58b6d6-ed70-462c-88bd-b94a04cca3eb",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": {
+              "$compiler": "embed",
+              "$source": null,
+              "data": {
+                "Animations": [
+                  {
+                    "Name": "Default",
+                    "FrameRate": 15,
+                    "Origin": "0.5,0.5",
+                    "LoopMode": "Loop",
+                    "Frames": [
+                      {
+                        "Texture": "textures/lightcookies/lightcookies_09.vtex",
+                        "BroadcastMessages": []
+                      }
+                    ]
+                  }
+                ],
+                "__references": null
+              },
+              "compiled": null
+            }
+          }
+        ]
+      },
+      "4f58b6d6-ed70-462c-88bd-b94a04cca3eb": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "ae23a7f4-e99f-4a91-9cc1-c37d090d228f"
+        },
+        "Name": "ParticleSpriteRenderer",
+        "TargetType": "Sandbox.ParticleSpriteRenderer",
+        "ParentId": "2b8759a8-28c0-4ddb-bbfa-e20f2ec51144"
+      },
+      "95a7bbc0-6a75-45c6-a4db-5962d4b4ce1a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "skid_y",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACgXBDzjUZxwA8OPIUReNZJfyGFOULd3F737v9z3mz/PIhjl7sOuvSDN2zZ/2WI+2ee6SP92ms7SFThzhIbs2nN/vfYlHTx6LyyPHouJJCw9bq55az7Tt87G3EQgK5/2a3IItjRmHzjRS3b7Gye43GuffGjF+/aTS2Gr3sXF0ztV4tqGvoX9Z22BKT2nY++bret+xsXpvXl8vVVkZs9QWrpbXg+aFLS5r344tEWF4dsP7eHV2P3b0ycQ5z7LxovoYjrwUi9G4DCdMb8H6jmfw9rpUUJIGzjOljhj0zjQhZyddydhNXczedH2GkIq/vUjcojcQ/wUDd/WbK2j4+RYQRMRA/q5DoFemg1F3BIbZo5AemwYBNgfBvjYeWqYY8HxtD+t0/eScZivNtuygldsC6NRBHY2veURtb4l75SpJr/7wpt40gWPv6d//pNOXRmhoSQ0VzeXSp20R9E6SBzX4WUmXpo6s5qeSScsMP5nmyrQstyHlqedIfNIG/B/cR4aU8yhCyCCzupVVfn6kx6n5GBeToOUEv430zDXtZEt4MXJblaG+rneQrMoGzUMBaw6kTObEHu7RzUHOqfsxp6qd5/xO9HApA8MIfroHrhVfYXX1Ar4RvV0RVKNQyC6GK/TljML9I2+F3w0nxXLhIvZN7sW+XxTjTb8k4rtaHzws/Rtyxjohrr0U3E/Fw1aLBGR376OLBUZUWn4CLcRKUWi+ANk5ceyauCI21NeJxR+a5f/94MEI98h7nHZP9ViVHlyTIZRL2SzhOj+z4ySnvTjhahwXMl7D7c8d5JqrJHzdy2x+aZzyIuRAZgd8yBrVEMnKLKXOSb9SFHqPjlTM0pdpoxTrr9EOdJ5GP82k3bMxNDdbQjFaIaaZNoI8Cskhhz3kaOe//LsXDLzU5T1+UDXMLbqbegJn1rFR1TpWpnptjrQr40+uVRNxlAt9vE9Dvf4y0U2TQ5QYhmigI0//iWmimogztCRARZNzt9EQ/jE5HdlKLCZ/klHkwDr/cRslKjCQV3kgfqGD4MtVEBRWBVMDFTATqAX15KfAn8iHgAvfgfRVFYhMegi+ooXG9i/Bf0QFMYmREGuVQe1hKSwlRUFUhxK0GhF8kFpOTA8l1HI9ii6ro+nP5YE0TD1BKq65EPmrSr5l1zSv948knm5lJDC8mSRP9JGWrFGiq5kgsbyVRNwcJcoDfaRwfQvZe7uW3BovJk/OSohhVUTSGU8SPr6e7++tB2GiP07RxuCMpWh8bmMQNjtuxMxGe9zddAeKBhpAdDwPgtcGQ/GgOxRdnkGirGp0fE6DVlYQ+sTqhU6VPmA9+eusXdf3bFfBAVaftJmdqRayWr5fvuNWmVwgjJKjFQd5tuIhk3egnuk7nMWwY36MUT8c0l/wY8j/JNGwzhgEAAA="
+          }
+        ]
+      },
+      "b678595d-4b0b-48a3-aaba-35e04f6df0b5": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "9e66dd32-3042-4d65-9c17-6e4b76ef69a1"
+        },
+        "Name": "SkinnedModelRenderer",
+        "TargetType": "Sandbox.SkinnedModelRenderer",
+        "ParentId": "efcf76de-ab27-4922-97a7-82eb0250bc4e"
+      },
+      "3b542e8f-3a67-4ecb-8ded-26103423efc9": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "5af58f7a-23b6-42fb-8cad-a93853967667",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "7926d640-1016-49bf-84a5-d1e163c53a7c": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "ba273d02-f6a0-4bfa-a4a5-6c24ce29fdb5"
+        },
+        "Name": "PointLight",
+        "TargetType": "Sandbox.PointLight",
+        "ParentId": "b386c85c-f7b0-4b0d-88aa-de0353cfcae0"
+      },
+      "0166b7bf-75b5-4b1e-8dc2-5e49a4491ead": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "5c0a70c5-6aea-4620-ae23-76dae0c07522"
+        },
+        "Name": "pelvis",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "8ff0a85d-43c0-4a99-a17a-7f86db1450ed"
+      },
+      "8ff0a85d-43c0-4a99-a17a-7f86db1450ed": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "e47aa3da-d801-494b-aa61-38b24293ee94"
+        },
+        "Name": "Player Body",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "059a1ca8-4e05-416b-9f4e-cb43ad470fc9"
+      },
+      "f9789ff4-2d0c-453d-8e79-2e3739cd703a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "CreateBoneObjects",
+        "TargetType": "System.Boolean",
+        "ParentId": "b678595d-4b0b-48a3-aaba-35e04f6df0b5",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": false
+          }
+        ]
+      },
+      "c199eed5-dbe7-444e-8243-077a47fcb34e": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "efcf76de-ab27-4922-97a7-82eb0250bc4e",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0,0"
+          }
+        ]
+      },
+      "1a1d465d-27ba-4703-ac05-25eaca6b2403": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "f4affa32-b647-4fa8-96e4-ed02958a653d"
+        },
+        "Name": "World",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "059a1ca8-4e05-416b-9f4e-cb43ad470fc9"
+      },
+      "e9405f47-ef62-43ad-b741-a137b37bc329": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "1",
+        "TargetType": "Vector3",
+        "ParentId": "2cc8a02a-c2a0-4076-ae58-c994074961ca",
+        "Blocks": [
+          {
+            "TimeRange": "1036,1320",
+            "Offset": -76,
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACmNmYGDo0HvlpBMk48xseNEZme1l9MqpIVbG2cTgojMAn2h45SgAAAA="
+          }
+        ]
+      },
+      "8fcba46a-3105-4073-aef3-e5d3a060f5ab": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "aim_head_weight",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 1
+          }
+        ]
+      },
+      "90fe16a0-2223-4080-8ce9-53118152a478": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Model",
+        "TargetType": "Sandbox.Model",
+        "ParentId": "ffcdd8d0-46ba-4958-b446-9143353d04e8",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "models/citizen_clothes/shirt/loose_crop_top/models/loose_crop_top_m_human.vmdl"
+          }
+        ]
+      },
+      "ab86ac47-dcbd-4e01-a79f-8127e12b5278": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "059a1ca8-4e05-416b-9f4e-cb43ad470fc9",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "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"
+          }
+        ]
+      },
+      "cb2e9355-606a-48d6-a2fe-d85f3ad5a167": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "IsActive",
+        "TargetType": "System.Boolean",
+        "ParentId": "dcc9c3f3-63fd-4457-aa3d-695edd9943b4",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "379baa3a-c0f6-48d1-8237-1d25009218e6": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "814a9112-fd6e-48ed-ba14-37e2d8de6a4c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "41b97549-9dea-49c5-9d58-d8a7984b2a13": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_speed",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACqXT/U/UdQDAcUh5EJJGjYi5QG8hk0YORJkFY/d9UxMfRjlSk2SKiwKNYnJESMkJ5yIUkDvOO+Tgy3H3vQfuPhKbWggKLShQaaxwJjD7IUZW2EYoHaH0R/j6H14B/n5PLPrIK2rf2tvqydk0KSmrVnpq26A0ujAnBRdG8fF4MpETu8gzHObAM1ouPqiheamBXSONHNlYjzbiS0RiFS26TynSl3D0XCnRzhMEvXGK6vI6dgcZeFtj4tKZFr5fIzPyp5XAKDuBgQ6+LlNYI+ysb7QT67OxFGhlPF1mfaxMz1I7G6JtrFywM9qgcG51K/uD6lgRfpLte0o40F+ELVtD1NOVTM3puDdUR/62JjYNmDk4b0FVakWXame+TCGl0saiykp1j0zaHZnsO+18nt9BfZGdm8EOKnVO8v3dnNrqZnjShTXFxdiAk4sfOLlR7qA3U0HJsxP6vB1jgZ0bCQq+QQcn7znZtOyiYsKN9HIn8cecfGc6T06hlrjqJPQTv0lds7VS+qRRqm79R6oeXcfGsAz2aPMo11Wx8MlpXp3Rk+Yz866qjTCLldD9dl6ocbDzPRfHu9wEezpJ1XoIiPey1exl6C8vFrUg4pDgoF7wrFPw2QXB4wuCkK8EZZcESb0C3zVB8VVBZJtgR6lgbNDL4Q89pDps+GWcZ0u/kdl9DQRl1LPkPsvcD3o6fjYRscrCW9dlMq930FelENPtIPmoi3Crm+6uTozFHhZXeJkq8RI94WXzWkFwtqC7UnCrXZB1WVBW6ibxRythd03k3DzLUM8ZQodPc/WbOr5d3Yj/dBMV/Wbat7egWWlh3QkL+r2tVMS18fc1mcWEDm7N2xi4r/BLmZM/plxoHrv5qamTR3s9hNz3IGV7+dflxTXt5VG4oOA1Qe0hQW6xQFcvyHMKVL2Ch8OC/0YEvw4JClYJvphxk/KikzGDwjt1CrNbHDSpFHYfb+e5AAsx/s2YlpqIjzMwYjJwecZI+gMzysMWpiJlNizLxL0vs/ySTF6NzJVEK1NZNn6PUsgxKPQm2tD0m3EX1KDq/IjXk3dwxT+WmM2BZPbNSj3H+iSXpJd6JnKlNxPipZDpMGnx9rh6312z2tFcpS7MTVM/+Wg/v/8BSCFXDhgEAAA="
+          }
+        ]
+      },
+      "68c59346-e216-4fab-a3d1-9710b1d2658b": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "a3823ad5-9d1b-418f-8e6a-d202bdffc601",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "6b4fa139-ec5d-41f5-a040-33ef4a717d79": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "2638e3d7-5576-4a0c-ad3c-ac44ace5ce2c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "18e105ae-1eb6-417a-b120-08793237ae9e": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Tint",
+        "TargetType": "Color",
+        "ParentId": "6cdd5e54-f439-4c4f-9fa0-e6281201a7e7",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1,1"
+          }
+        ]
+      },
+      "2b3c6f90-4948-480c-b534-f65961729285": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "455e5ffd-aec3-492f-8288-ce11f2e0c46f",
+        "Blocks": [
+          {
+            "TimeRange": "1036,1320",
+            "Value": true
+          }
+        ]
+      },
+      "e28a402c-2343-48c4-b936-e940c229212a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Gradient",
+        "TargetType": "Sandbox.ParticleGradient",
+        "ParentId": "fa27e24a-6959-4b7f-933f-4cc324175aaa",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1,1"
+          }
+        ]
+      },
+      "39ed7164-ecb4-4779-8320-51957b02892a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "efcf76de-ab27-4922-97a7-82eb0250bc4e",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0,0,1"
+          }
+        ]
+      },
+      "95695ad8-07f5-4048-b5ae-e0af52f9b9b9": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "6355a3c7-4b16-47eb-95ca-e949c49e314d",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "359d085c-f291-4bce-b066-1a8e79c2d633": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalScale",
+        "TargetType": "Vector3",
+        "ParentId": "2f604b7c-3c4f-44f8-928c-d9291fddc296",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACmNlZGBgYGiwH8W0CQPGUTwaBkMwDQxUecCMA3OQiFkowLxImFT3syJh9lE8GgajaYDiNDBcyzpK2g/IZR0l5lDinn//6+GYnuGPSy+14pQJCZPqFyYcekn1C7I5uMwkxi5Sw4QYe5H1AAAktBzpQAwAAA=="
+          }
+        ]
+      },
+      "032ba237-6859-4e34-bc67-994cda0632c2": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "2f604b7c-3c4f-44f8-928c-d9291fddc296",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACu2Wv2sUURDHJ5E0ZxAVBKvBTg50Dfm5Cxp2BBWCYCEYLJRUVilTydvblyP2FglYXQ5Jkci+V5jE223OxeIKC/0PgpX6BxgQxT2Z3bd3ywr+QFSE7T48Zma/833zhh0bATimkBpCP20I7Vb8fR9AIc0vwlxcYqmQnt2/PCeFdkcV0ijI2aY5B5CDmIorH/6HGTipkE4onGn+Zc40QBiXmN9Ub9sPmz/Jae5H3wbv15nf9aPa544cetIZxPyAOXft9YNOrv/DwaeKKx+qGfiNGTiukF5eO5q+rz/BZ/L3K77l8atfZvOYf8FLCmn5cK1T5olsN0bS0+49hTRRP2Lz/0mRzf4E3mO8l27dkLZb4iRAunB9Ya/LrJCenJVhIrTrmlz2P1ZIscI9rjOvkDaFnmwJ7XYV0hVvetoydfA8OA9N7p0RiHgPNxTSyjs/7JaYY97XwJGmPoC0Y1M/6fthy+hf2KjPtIV2XwT8TwXRY9avkc7dXLXbpVyu/+qUHOTyPk9711nMGz4PkC4u+1F76M9kmeMAKRbWVGx0jm/U9/P67Mld02/S96MDc74prF3+bqrHs6b4jtiftzWI8n51C5zUzwBpfQei3Nvt217aC/e+1UsK/md9ccxWL7GXDK+MSYfj+R5PH/oRnxv9BXYd7rcRIC1eWh14DpBpKDLrTPq+w/q55vrOMCYW1m4e81zhfmGuUv1fAR5xLj9ADAAA"
+          }
+        ]
+      },
+      "25494085-0c3c-427e-8246-292455fbfe87": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "49f245b9-f500-4409-9d93-9febd3bc4688",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "7b3a9037-5e71-40f8-9c17-7fb46a145349": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "aim_body",
+        "TargetType": "Vector3",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "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"
+          }
+        ]
+      },
+      "eff9553d-39a1-4603-9b72-d3e913ac2187": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_groundspeed",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACmNlZKAIvFrS5zSxnc1ZOdrT+ahMuPN9syTnULFU54akVucyxoXO56VXO29hXess27zOufrROmeLn+ucj/9Z58z6f53znv/rnO/9X+f84/8657//1zn/g+L/BDADw3owZkTCyGIMaDi1vNB50v9O5+/TFzkf613tfMR+rXP1xHXOD5+ucy76vM5Z7e8657j/65zv/F/n/O7/Ouc/SHYh24HNbGRxZJoJTR8+DFOLbCYTjTGxboO5i1BcMJBoHrGYVPW44gZbXJGKGQiYT4k7QfSblDnOs2sCnJ22fnN62CnoFNsu4TjpkqiDihOvPe+SdrvoSka7CbUvbCjLscQBAAmIu6oYBAAA"
+          }
+        ]
+      },
+      "b569c929-bb8b-4a9d-954e-62066ba03530": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_direction",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACqXT/1fTdRxHcdDTkTJABKyjdaI0NFcQHAbu5Px83q/nOXEkAmSe03Fhy0PUGDigWWJnIAxiOiZswGSDMdh2FLQNww7UGbkKPTvZ0YyYknw1jCAKDDvMOHqiP6BfOsfHOfdPuI8EBz0UyfIB8EXvoFaei77MPKjG3oWV8pGcXYCWWCWkYcXgvi1BdoEKWy58gEeVR5C8tgwLWa3Ij3FglboLucluNJ9x41mPGzHzLnRoTXhgb8IThY1wOxvgv2MECYwYKDUg5c96rKk0INtugDdTjUxvBbgJDSSuN/GxdT+SB3NgdMmQ4ZPh4A4ZZJf3YzomBwmyAPXplil83xJlGBdJlfkHPe6fJdPANIlvTdF6/wR9vW6MXv7mJrnrhumvaj/NGH+k0bNFdL2nhHKuHabx2DJ6IC6n66ySln0a0qVUkPt4KRWuKSGBZCcl5UUT92swve0NovXjq2k4so2eF9qorLKdROUdJJ2104rQQSuvO+him52kDXa6/4WZQvbV0tqFIrrw2SleHG9DQt4xKHcfR7hPh8RfanFoSY+XQuvw08Z6BP6ux5jPgKdmjdjY2YBNWY2IWmyE9UQT+gUmULcJ+q0n8Zj1JOTRzRArmuG60gxHnBmTdWYcHDFjEBZEV1hw5ZlWnDrXCn7KivQZK/65a4V3xYqj0jZs3WzDtuJ27K2047lCJ+7JOrEucAaqiFH2/eINtoH/gb0S72H3IzqYpvgom6l6j12NETJx2hy/bfoTXtGXyn81soNXDiTy0Z4tvOX3CD4qYYWzdy9wNsUkV+Ua5I5UDXDu4l6utegsF/9aO1fgnebOb3qVPx2qoFS1lnzdJgpTW0jXYyLZnJF23j1B3xl0FG/W0sRkNYmqbaxb28S8qbUsKEfDSnep2ZBKzgRZElYelMZCbqazhuwMNrd9D7vxpIQN3ZMyz+ZCJptXMud5ORvuKWa5mrdYrzOT6fWMPX0siaXZX2D9XRFMejvANzhG+JpAM58ivMV9uvrSrmDPi3SJCahqaTvpe8Mo6aqHeT8/zUf+pmfCVSKK/VBEcreIWvSM5jrTKTzxDTJ3HaCQwwpqPPc+3Qn5iLoEo3R7apyG5v10ueUaOSsuEqvxUPyGflIdCkX+l2GIs0RAWxOJn+Oi/tNUXBQe7tj/5183Wb/1GAQAAA=="
+          }
+        ]
+      },
+      "059a1ca8-4e05-416b-9f4e-cb43ad470fc9": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "9ac99d7f-2b69-471a-8b5f-bbad757e0a68",
+          "PrefabSource": "prefabs/engine/player.prefab"
+        },
+        "Name": "Touxoo",
+        "TargetType": "Sandbox.GameObject"
+      },
+      "15d4fb2d-c2df-4da2-bedc-bac31f15054b": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "MaterialOverride",
+        "TargetType": "Sandbox.Material",
+        "ParentId": "49f245b9-f500-4409-9d93-9febd3bc4688",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": null
+          }
+        ]
+      },
+      "b2fba97e-b9d2-404c-9f5c-bf00b6fc2e23": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "1873f065-b336-4795-94ca-a1e5f12283f4",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0,0"
+          }
+        ]
+      },
+      "b346bcff-062a-4b4b-a580-c2552d8f0a7c": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "dcc9c3f3-63fd-4457-aa3d-695edd9943b4",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "dabe1d19-4192-4f4e-8d94-1d25b5243361": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "7526c7f6-d1b6-4d7b-8f37-4f72a4c057e3"
+        },
+        "Name": "Beam",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "c2d3b16e-2c28-4eff-af1a-e1447afce69c"
+      },
+      "2f604b7c-3c4f-44f8-928c-d9291fddc296": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "bc407573-8e16-49e5-8d64-abeb0adef881"
+        },
+        "Name": "muzzle",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "473056f5-f32d-4f95-9091-d6f903078ef5"
+      },
+      "83c93287-846a-4bdb-a527-90b272d53fae": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "_character_type",
+        "TargetType": "System.Byte",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 1
+          }
+        ]
+      },
+      "425a1adf-ff26-41b8-9735-fddbb536d90c": {
+        "$type": "Property",
+        "Format": "Editor",
+        "Name": "Parameters",
+        "TargetType": {
+          "$type": "Nested",
+          "DeclaringType": "Sandbox.SkinnedModelRenderer",
+          "Name": "ParameterAccessor"
+        },
+        "ParentId": "814a9112-fd6e-48ed-ba14-37e2d8de6a4c"
+      },
+      "e9f95a8e-1250-421c-bcdc-438d0d985bf2": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "aim_body_weight",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 1
+          }
+        ]
+      },
+      "8e46fb39-e782-436d-a838-41aa9c452db2": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "dd08a9b4-cfec-4ee8-9dc5-d0903daeef86",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "803a9dcf-b9d9-493a-a38a-3f4dfc7d6e51": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "BoneMergeTarget",
+        "TargetType": {
+          "$type": "Generic",
+          "ElementType": "Sandbox.MovieMaker.Properties.BindingReference`1",
+          "TypeArguments": [
+            "Sandbox.SkinnedModelRenderer"
+          ]
+        },
+        "ParentId": "b678595d-4b0b-48a3-aaba-35e04f6df0b5",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "814a9112-fd6e-48ed-ba14-37e2d8de6a4c"
+          }
+        ]
+      },
+      "e61030dc-054c-4fbc-bfd8-970f46a00270": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "IsActive",
+        "TargetType": "System.Boolean",
+        "ParentId": "c6f17892-aaf0-4fc6-8dcd-5b305eb5bb64",
+        "Blocks": [
+          {
+            "TimeRange": "1036,1320",
+            "Value": true
+          }
+        ]
+      },
+      "bb701429-6569-4802-b4a3-91db10b6b2fe": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "b_jump",
+        "TargetType": "System.Boolean",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": false
+          }
+        ]
+      },
+      "fa27e24a-6959-4b7f-933f-4cc324175aaa": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "b768db57-31cd-443c-8de8-44dd1947fbda"
+        },
+        "Name": "ParticleEffect",
+        "TargetType": "Sandbox.ParticleEffect",
+        "ParentId": "2b8759a8-28c0-4ddb-bbfa-e20f2ec51144"
+      },
+      "dc40cf24-4215-4819-9c96-80df8ecd5793": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "2",
+        "TargetType": "Vector3",
+        "ParentId": "2cc8a02a-c2a0-4076-ae58-c994074961ca",
+        "Blocks": [
+          {
+            "TimeRange": "1036,1320",
+            "Offset": -76,
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACgEoANf/AwAAAJGAPMIRXRBD/upUQ9twp78N5ltDoIfJQ7YSaMF+AGNDsKzIQ5m/J/AoAAAA"
+          }
+        ]
+      },
+      "ecc5e038-6b02-4a31-bc2b-27e3b682f99c": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "b_climbing",
+        "TargetType": "System.Boolean",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": false
+          }
+        ]
+      },
+      "f294bfee-75d8-454a-8251-34a9997138c7": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "ffcdd8d0-46ba-4958-b446-9143353d04e8",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "afc36d09-d80d-491f-a412-5bdcec1c9ce1": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "9fdc6852-21f1-4cc8-b334-22055db45af7"
+        },
+        "Name": "ParticleSphereEmitter",
+        "TargetType": "Sandbox.ParticleSphereEmitter",
+        "ParentId": "2b8759a8-28c0-4ddb-bbfa-e20f2ec51144"
+      },
+      "0009fa61-b610-4143-8b27-7b93f673bc0e": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "2f604b7c-3c4f-44f8-928c-d9291fddc296",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACvv///9/RgYGBlYQwcDA8P/v9/sQ1igYBaOAYRQwAACznTLgJAQAAA=="
+          }
+        ]
+      },
+      "ea48fa0c-79b7-4069-9956-527c17c4b50b": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "1bc103c0-df3e-428a-89b5-990792232606"
+        },
+        "Name": "LineRenderer",
+        "TargetType": "Sandbox.LineRenderer",
+        "ParentId": "dabe1d19-4192-4f4e-8d94-1d25b5243361"
+      },
+      "04f82e02-7102-4108-99f8-18c58173255d": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_groundspeed",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACqXT/U/UdQDAcUh5EJJGjYi5QG8hk0YORJkFY/d9UxMfRjlSk2SKiwKNYnJESMkJ5yIUkDvOO+Tgy3H3vQfuPhKbWggKLShQaaxwJjD7IUZW2EYoHaH0R/j6H14B/n5PLPrIK2rf2tvqydk0KSmrVnpq26A0ujAnBRdG8fF4MpETu8gzHObAM1ouPqiheamBXSONHNlYjzbiS0RiFS26TynSl3D0XCnRzhMEvXGK6vI6dgcZeFtj4tKZFr5fIzPyp5XAKDuBgQ6+LlNYI+ysb7QT67OxFGhlPF1mfaxMz1I7G6JtrFywM9qgcG51K/uD6lgRfpLte0o40F+ELVtD1NOVTM3puDdUR/62JjYNmDk4b0FVakWXame+TCGl0saiykp1j0zaHZnsO+18nt9BfZGdm8EOKnVO8v3dnNrqZnjShTXFxdiAk4sfOLlR7qA3U0HJsxP6vB1jgZ0bCQq+QQcn7znZtOyiYsKN9HIn8cecfGc6T06hlrjqJPQTv0lds7VS+qRRqm79R6oeXcfGsAz2aPMo11Wx8MlpXp3Rk+Yz866qjTCLldD9dl6ocbDzPRfHu9wEezpJ1XoIiPey1exl6C8vFrUg4pDgoF7wrFPw2QXB4wuCkK8EZZcESb0C3zVB8VVBZJtgR6lgbNDL4Q89pDps+GWcZ0u/kdl9DQRl1LPkPsvcD3o6fjYRscrCW9dlMq930FelENPtIPmoi3Crm+6uTozFHhZXeJkq8RI94WXzWkFwtqC7UnCrXZB1WVBW6ibxRythd03k3DzLUM8ZQodPc/WbOr5d3Yj/dBMV/Wbat7egWWlh3QkL+r2tVMS18fc1mcWEDm7N2xi4r/BLmZM/plxoHrv5qamTR3s9hNz3IGV7+dflxTXt5VG4oOA1Qe0hQW6xQFcvyHMKVL2Ch8OC/0YEvw4JClYJvphxk/KikzGDwjt1CrNbHDSpFHYfb+e5AAsx/s2YlpqIjzMwYjJwecZI+gMzysMWpiJlNizLxL0vs/ySTF6NzJVEK1NZNn6PUsgxKPQm2tD0m3EX1KDq/IjXk3dwxT+WmM2BZPbNSj3H+iSXpJd6JnKlNxPipZDpMGnx9rh6312z2tFcpS7MTVM/+Wg/v/8BSCFXDhgEAAA="
+          }
+        ]
+      },
+      "c6f17892-aaf0-4fc6-8dcd-5b305eb5bb64": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "63b619a5-e38a-4e56-be19-b3cc662d95eb"
+        },
+        "Name": "SoundPointComponent",
+        "TargetType": "Sandbox.SoundPointComponent",
+        "ParentId": "dabe1d19-4192-4f4e-8d94-1d25b5243361"
+      },
+      "f989b307-91b5-4b72-9123-a01d642c7271": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "8ff0a85d-43c0-4a99-a17a-7f86db1450ed",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACqVTWUoDQRSsJC6JcUFE8dObxNMIeinBi+h9Iq4xmawlhVXwGMhPbHhd1cubqbc0SXYA7GsCcM/ZI3YcS5Jjkh8kP0lOSL4Ztfdjm5H8ItmQXPFvHAAYADgBcArguNhRwb7vHdriN/Sd+J8DuABwDeAGwBWAhhzp/1NrmlrLxChbeH9uvjDPemXetM7ku/T5huSecmoTz7pn3iu8niu+M9ulMfkYOgfJg2xFPkf33BoWxmXRFFwXrJzWva223aK7X7QMvN8v9UhsXWOn9Z2styGAW01r61Zc36VGqVvqUOsRi29jnpwEN636htd8rVsGAMmR4tBIDZWLEYA74OWB5BPJd/e/ej9vQn2vHlTPiSuWvAXd1ft5NdeZfBLDru/yv+MXtv5guyQEAAA="
+          }
+        ]
+      },
+      "93bee1cf-4c32-4382-8ab0-b139dcf71d37": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "fff27ed6-4a33-4c0f-88e9-9219ff31a96e"
+        },
+        "Name": "Clothing - loose_crop_top",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "8ff0a85d-43c0-4a99-a17a-7f86db1450ed"
+      },
+      "a3823ad5-9d1b-418f-8e6a-d202bdffc601": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "67e04d69-7151-4aeb-9eb5-8a1ceb634ff4",
+          "PrefabSource": "weapons/physgun/effects/wm-glow.prefab"
+        },
+        "Name": "wm-glow",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "2f604b7c-3c4f-44f8-928c-d9291fddc296"
+      },
+      "b2b8f193-039f-45ae-aa72-a96237cae874": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "RenderType",
+        "TargetType": {
+          "$type": "Nested",
+          "DeclaringType": "Sandbox.ModelRenderer",
+          "Name": "ShadowRenderType"
+        },
+        "ParentId": "0d18d8b7-d184-4cfa-9b27-1efbc09bfcbb",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "On"
+          }
+        ]
+      },
+      "f3b9bfb1-2333-4293-945d-1ba88caac6f8": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Model",
+        "TargetType": "Sandbox.Model",
+        "ParentId": "49f245b9-f500-4409-9d93-9febd3bc4688",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "models/citizen_clothes/underwear/y_front_pants/models/y_front_pants_dark_m_human.vmdl"
+          }
+        ]
+      },
+      "b872aedd-95ad-442f-96dd-cd44e5afed5a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "7926d640-1016-49bf-84a5-d1e163c53a7c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "5550a65a-b680-4026-9080-c1e7bc068a17": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalScale",
+        "TargetType": "Vector3",
+        "ParentId": "fa64fac2-c8de-420d-872f-933d3c8f4e9a",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1"
+          }
+        ]
+      },
+      "c4a30e20-398b-4682-8964-80a1167327c5": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "2f604b7c-3c4f-44f8-928c-d9291fddc296",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "450fad0f-f7a0-4694-8c3b-c1a95f67164d": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "bec98b6e-bad3-42ba-ab4c-45ec2962608e"
+        },
+        "Name": "spine_2",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "ee7b6e22-328c-46d4-82b0-e6374454bf03"
+      },
+      "514a4938-4362-40f1-b85c-abba04c9e54c": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "69dd782b-be22-41c9-927d-cb63149a427a",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0,0,1"
+          }
+        ]
+      },
+      "403d6500-36f7-41c1-b197-fe7304f5e79e": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "holdtype_handedness",
+        "TargetType": "System.Byte",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 0
+          }
+        ]
+      },
+      "32dfe744-2ad1-4210-9ee4-53add561c632": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Tint",
+        "TargetType": "Color",
+        "ParentId": "b678595d-4b0b-48a3-aaba-35e04f6df0b5",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1,1"
+          }
+        ]
+      },
+      "6cdd5e54-f439-4c4f-9fa0-e6281201a7e7": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "978f52bf-5ffc-4915-af55-40f90f9ab2ac"
+        },
+        "Name": "SkinnedModelRenderer",
+        "TargetType": "Sandbox.SkinnedModelRenderer",
+        "ParentId": "fa64fac2-c8de-420d-872f-933d3c8f4e9a"
+      },
+      "e5264ffa-c49f-4380-a1a4-c25f1926bb08": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "bb97da61-6193-45ad-87f2-06556996cee4",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "c4ef6fa6-7a12-4a3b-a25a-0214fd9e9468": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "MaterialOverride",
+        "TargetType": "Sandbox.Material",
+        "ParentId": "ffcdd8d0-46ba-4958-b446-9143353d04e8",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": null
+          }
+        ]
+      },
+      "053f3d38-3048-4f6d-b3ec-d65290971cea": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "cac2c7a0-fdb7-4507-af65-9d608992f7a3"
+        },
+        "Name": "idle_sound",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "c2d3b16e-2c28-4eff-af1a-e1447afce69c"
+      },
+      "25e2cbda-e3cb-430f-866a-8858670229cd": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "6cdd5e54-f439-4c4f-9fa0-e6281201a7e7",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "32245d6d-70fd-4119-9e94-b80ed0ea338e": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Tint",
+        "TargetType": "Color",
+        "ParentId": "fa27e24a-6959-4b7f-933f-4cc324175aaa",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0.68333,1,1"
+          }
+        ]
+      },
+      "438076fe-9c8c-44d5-89d1-7fb42a3df340": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "BoneMergeTarget",
+        "TargetType": {
+          "$type": "Generic",
+          "ElementType": "Sandbox.MovieMaker.Properties.BindingReference`1",
+          "TypeArguments": [
+            "Sandbox.SkinnedModelRenderer"
+          ]
+        },
+        "ParentId": "ffcdd8d0-46ba-4958-b446-9143353d04e8",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "814a9112-fd6e-48ed-ba14-37e2d8de6a4c"
+          }
+        ]
+      },
+      "2e2f6956-1c30-4d36-8f2e-1edf65b75548": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "450fad0f-f7a0-4694-8c3b-c1a95f67164d",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "669dcf55-e56a-42cf-8b8e-68b9a0750f6b": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "fa64fac2-c8de-420d-872f-933d3c8f4e9a",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0,0,1"
+          }
+        ]
+      },
+      "f1e8aa30-ce35-4508-9869-2dfacb412eb9": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "dabe1d19-4192-4f4e-8d94-1d25b5243361",
+        "Blocks": [
+          {
+            "TimeRange": "1036,1320",
+            "Value": true
+          }
+        ]
+      },
+      "9a690c9e-1e7d-4b8f-a257-6f7810b6fb50": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Tint",
+        "TargetType": "Color",
+        "ParentId": "ffcdd8d0-46ba-4958-b446-9143353d04e8",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1,1"
+          }
+        ]
+      },
+      "9d0a2298-6e99-4fce-983e-95ce193bcfe7": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "MaterialOverride",
+        "TargetType": "Sandbox.Material",
+        "ParentId": "b678595d-4b0b-48a3-aaba-35e04f6df0b5",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": null
+          }
+        ]
+      },
+      "25c1b78c-03a2-4ea6-a5db-6ac73969e550": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "16521fc3-3d49-4b03-b013-c64fa20afe12",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "5b93de5f-e196-4c18-88dd-527d24fd4d94": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_x",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACqXTCU/TdxwHYBiXhhsWCmQwnIRpV7RsoJIVSr8fNzSGCLMGggx0cYwhQRRhFYtTBMphXAUkrRwqFKm9ZARCnVvX/+/vhFRcZWLmEWdcQNhwgYzFomLci/B5D4+Xu9sb8xY8sTuUTZykbY4zDMex0tYCluc8wXKiOlnPwcusMd3G3pkeZTbpBNv46W12PWGC1e8ZYOJZObv2op2LHeiSJeq+oWrtNTpb6Y2Y1NXw6hFD4/wQmXnxmJmPRVdnBBKd/lgO8EDM2L9k931M4mADjbvlkK7qikw9soFrGT3EWOQddvhGJC/KkfMucQXvKKzhGywqflDYwM+eqOWnXN/yvgmHeOzaw2/ensX7DBI/vDKJP3pqFf+2IpTP71zBpwqX2WTuY/Zqwckm/hhiTVNH2Ar3OS6tIFZ29/f36aGtiaojr1B3wDTF3HdHtzkA86HRKJOthdQ/Edn3pJAMb4OxTg7hVAYKj0jx96II1fECiL28oFyeIdsXP9KBAzrK3qemVa+Pk19VJZX0l9P52kZatKvIl6slpUc1LdIx+m2Xip6mnqGMoItk+3WEvr/noN6QWdqrfEkv7N4w5AfC8xcBhvvfxbmUOEzKRKhxJUDz3UZcWifBwYY0eFzdDBragvYb2+D3ViaCwrNQmrgT82ezUf4gF8k+n+PPrt1QZ3yJkyFFCBgvhklbgqWK/VD0lSHseDlKExQI1CqxW3cMq1U1CHxUD3/WjDtONUrrW/HylgY+tzpxNes8Nq3vRfxUH0bC+3F6Vo+IjwyozDYiQGjCvMOEjHQz1lvN6PC0wJFiwcr9FlCbBWNmC4KEBhTnXoBruRU/D6swalEgOmUvHtg/g/DjdGQKpBD3JSPsCeDpLkdUcyHyIqrQaK2Bd0ozQpLbYIcWm7Z2w/PyBXQpdSjSX0R+Tz+uR1yCxN+AcyMGsA+MkDYYEX3TCImfCbfTTQjZZ0KDwYSmORPCRWb8V2LGU4MZcbwZgtcmnGzUoy6jFyXUjUG7FqJHZ6BR78SGycM0OzTDxYSFsiVNLTfwPEk2OO1PLb5fUdknbWS06ql6+w/03NhByvtb6e64SuY29sz26pQHe/bwa6b8p50NFFiZa81NFmdfYEfrllhF0QyLznawpFw9c6Q1M/60guUXbWEt8ig2894C91OHlVvX2sGlBRdz41jL/RUSzO1ombC/+Wg3t/8BjB/QCRgEAAA="
+          }
+        ]
+      },
+      "16521fc3-3d49-4b03-b013-c64fa20afe12": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "7bdda9d4-a27c-4d8a-baa9-41d4461c5205"
+        },
+        "Name": "arm_lower_R",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "bb1a71b7-14f7-49cf-9f4f-27bd0fb2c77f"
+      },
+      "0d18d8b7-d184-4cfa-9b27-1efbc09bfcbb": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "0ad3bf09-95f0-49b1-bf8a-13208de8c00a"
+        },
+        "Name": "SkinnedModelRenderer",
+        "TargetType": "Sandbox.SkinnedModelRenderer",
+        "ParentId": "69dd782b-be22-41c9-927d-cb63149a427a"
+      },
+      "e75840ca-9b9d-40a0-954d-8312f5b477b7": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalScale",
+        "TargetType": "Vector3",
+        "ParentId": "69dd782b-be22-41c9-927d-cb63149a427a",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1"
+          }
+        ]
+      },
+      "7d54cdc1-95ed-4afc-8fdc-d339f7ddbd0d": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_direction",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACqXTjzPXdxwH8K9wytfs3DlaCdvChmyp666i7/v9etYdhTka5sc5EpkmWy0/MkN9HXFf4fP97Uc1X9fCWBkbpazka1uu2A6zqPjS1yobfbWssT+ix//wsDQTvbItXUlod09GX2MKLkhS8cuJNCS5fYK8j49gZSkDDtmfYXz+KIodjiPgi0y8PZaFH0/l4lF9ATKspTjqUYIxHxniRyvRJFVi97AGIWe0GE3XYOpPFSrjlfimVY6zGwVcHavEE30FmobP4LVkGYpbSzFtVgLnVUW4LCvASyEHCW98Ciebg9jTGIfCbdHwOBaJ5cIwiBwD8ebuXei39EVahyuWZfbIyBVDd9ICW43/0HnfOfK8/ojKxJP0s/AHdTeN0GnpEI3b/UROB7tpf0Qr3Vqlo9VMS31rq+h5XildY0XkZSwga59sung9g2aXUujeeBx55odT1Ml9lBgYSg8OxNB9QyoZV3LIQ36K9G6l9FdSFV0dUlJvtpZ+s6ulIaojnWcdhWdpaE4pJ2NkMVn1JlBn/hW+aboBnZNqGI4o4LokYCVIwGkHAXH7BAyWCVBPCCj0l2PLZTn6HRSYyVRgw4gCRVDi/VolZkxKaENU+OCCChefqpAZpsaGNDVi7qpRZatBf5IG8XUarDbToqFAi60DWuSsq8ZCcDVu1Vfj8O1q+PnXYMS8FmrxWUS8OI/P/6vHSPnX0OuaIZ1qhW3wJYSWBEheJIKFPStjk361rKellk2ItWznQxnb3FHIItpSWUdfKJt12cEsXN2ZeZAdO25jxk6Uz0gCtw9IDDfbJO0JSsl6q49YV7KJze4/xGNLG7ksw8DLE1+nBt27ZP9yJ63RBJL7sXAavhlE/h67yPyuF+miHWnCWUzZY3P8HX0vH69u5ue8Bf6gvJBbRKbw5ckQ7u20h0e7+PLJXA9+P8qFr5Ou5+/FOnLTJnsuCrXj3um2fP62mC/4WHHnw2acHTCx7W4G1uJ+h/GGXjZaoWcbe9bywdEYfievgisMbfyxdpAHmweQ8VINHZJ3k7y9h374sJO+U7eQ1d4G+v1pDS28paLGQYGmvCrphqWK/KfPkfRxM1l7t1H6V9fI+Us9KWmA1K6/kiZlhHY4PiT/G0Yq7npCNt/PkTzqbxrOnydhzQL53VsgkfCM/vU1Uf+3JqpYNFFE7CLlX1mkbYZFytr8nF59tEj0PzYeRfsYBAAA"
+          }
+        ]
+      },
+      "efcf76de-ab27-4922-97a7-82eb0250bc4e": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "36553ee2-ea3e-4cc3-ba0d-40cb8dbbf9c7"
+        },
+        "Name": "Clothing - boot_heels_black",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "8ff0a85d-43c0-4a99-a17a-7f86db1450ed"
+      },
+      "2638e3d7-5576-4a0c-ad3c-ac44ace5ce2c": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "f85e60aa-c214-4d75-baef-be08e1338f16"
+        },
+        "Name": "spine_0",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "0166b7bf-75b5-4b1e-8dc2-5e49a4491ead"
+      },
+      "e53570ac-3f45-4480-b298-eb6011eb97c5": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_y",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACqXTjVPTdRwH8EGaQ4XjjJRT4SAGqclunskNjNr3+x4eUlDIwgsxEE1OkIhwAmKLB5EtNkY8DWTAFk7ClCOKHpYB+33w4UDkQQzqVNSC8PSU5CAitf4IX//Da7GT6Jn96vmcY+MDm0P81EPQhyYIOYYvBNWay8LeFYtI4+tNMkMQbVK/RX5/p9KJCQ31BReT3VlP7W16uino6NJwAUl/yCD7TALlfRtFbg4lpYZHEMZ309iTdEoLySPnVC3tNRgpYX0VhepqKQj1FD9jIc+sJvLdYKPR8ZPUuraRdrxkIsVmPZlaDxGXx1FHTCQFbmU09okPzR28LNgyggXJxPPs5a/rufSv//jy9wPwenYYwtWpUPXn42qXDqEjZYjYU4NjY2bYgyyoUVsRnW1Fns2Cw0caYVvVgPsdZhx4tQ5Rk7XYdrYGvYXVqG6vwKZlZfh3fwkuGI7Dv7kAvauP4clsMS7+o0czlaMt04Rxex2cl1ghv9aEOO9TeHiuGZUJXyLjjA3h3Sa0nc9B6ff+GP6uk1d0jbPX5IsFP0O30HtrKa2TBpKkOIJG3Q/ScHAuhZ8upAtKLb1yq4QGvjLQ3HQpffqNkd6UlNHsXSN5mIy03d9IhwpLKafZQG4zehoaLKEdZSVU/sZnNJSio571WmLbi0l5pYimRgpp/mQBLcnIJ4k5jxbkGvJtOUrVC1m0Ki2dkrbF0OHbgZQ8upLau/uF6+5Hhc+jHjv6AvQO2Y9FCvNgEfvYdJ6pJ2+zsMhJ1m25w+64XGVvHxGYeraVDTrVs+WZehafmMsUSfHsrKuS5ayRMV+RF9tpd2HOfZOKGzFWphkI5InRtXzplms8xUWMgD8kcD2uwI2GdyF9uh8KiRr9lZmQnUnG3aZY+Ck5tOVb0NniA1eNGGGPZ/gHXiP8+u6feeepFv7ItZZv/qicz60u4uK4XK4aTOdTxhTu3ryPz69N5OZF8bxnfCf3Ean4lDSSm+uU3FMbwuVRUq464M2n01dyuZMn7+lJ4gH2Rn5zfoC7e4ggfscDHSUaPPiwAd3vmbHuzxpMO6oQtKwSQ9oKWLwq8UtaFapkJjzaUIvf5GZMJzdgz71GxOosoF1WXGyzgglWRL5gQexCHaJyDXjRV42236OhC5Hhyj1X1GVN8H2ne3nxJQvfuJDNa7q2co95N97+00N2f6GdDefnMUXDLhZ+zos9+2iR6H/wLT/yGAQAAA=="
+          }
+        ]
+      },
+      "82cae72c-0401-415b-afef-06edc33e7a2a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Tint",
+        "TargetType": "Color",
+        "ParentId": "49f245b9-f500-4409-9d93-9febd3bc4688",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1,1"
+          }
+        ]
+      },
+      "473056f5-f32d-4f95-9091-d6f903078ef5": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "0a2e1c64-cbfb-4dae-85c2-8707a29dd9db"
+        },
+        "Name": "w_physgun",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "6355a3c7-4b16-47eb-95ca-e949c49e314d"
+      },
+      "2a5b5fe1-bbdf-4acf-97a7-7d0edd2c046b": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "b_swim",
+        "TargetType": "System.Boolean",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": false
+          }
+        ]
+      },
+      "7154df00-3b3c-4ebe-9f09-88f2e9bd6eca": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "CreateBoneObjects",
+        "TargetType": "System.Boolean",
+        "ParentId": "6cdd5e54-f439-4c4f-9fa0-e6281201a7e7",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": false
+          }
+        ]
+      },
+      "9124b249-a4ac-4c41-b48c-7cf13f425c24": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "holdtype",
+        "TargetType": "System.Byte",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 8
+          }
+        ]
+      },
+      "49b27905-e584-48a5-a97f-885a34af6551": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_speed",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACmNlZKAIvFrS5zSxnc1ZOdrT+ahMuPN9syTnULFU54akVucyxoXO56VXO29hXess27zOufrROmeLn+ucj/9Z58z6f53znv/rnO/9X+f84/8657//1zn/g+L/BDADw3owZkTCyGIMaDi1vNB50v9O5+/TFzkf613tfMR+rXP1xHXOD5+ucy76vM5Z7e8657j/65zv/F/n/O7/Ouc/SHYh24HNbGRxZJoJTR8+DFOLbCYTjTGxboO5i1BcMJBoHrGYVPW44gZbXJGKGQiYT4k7QfSblDnOs2sCnJ22fnN62CnoFNsu4TjpkqiDihOvPe+SdrvoSka7CbUvbCjLscQBAAmIu6oYBAAA"
+          }
+        ]
+      },
+      "6264c91b-a2e4-4672-b851-dc36d758b11d": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "346aeb88-e094-44c3-810b-3096cd908abe",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "949442b1-9075-4123-afa3-a7835890c259": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "0",
+        "TargetType": "Vector3",
+        "ParentId": "2cc8a02a-c2a0-4076-ae58-c994074961ca",
+        "Blocks": [
+          {
+            "TimeRange": "1036,1320",
+            "Offset": -76,
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACgEoANf/AwAAAOUTWENl9sdC8OXaQ9ATWEPy9sdCIObaQ7QTWEO298dCY+baQy5vX20oAAAA"
+          }
+        ]
+      },
+      "d7fda541-6997-4d98-a717-6e801803780a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "4f58b6d6-ed70-462c-88bd-b94a04cca3eb",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "2732ab69-9154-47d6-9488-397177082f02": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "CreateBoneObjects",
+        "TargetType": "System.Boolean",
+        "ParentId": "0d18d8b7-d184-4cfa-9b27-1efbc09bfcbb",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": false
+          }
+        ]
+      },
+      "d8f52d5b-a8c6-49f2-8799-fc031d7c6784": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "afc36d09-d80d-491f-a412-5bdcec1c9ce1",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "8a051ef9-af39-4589-9450-087a1a2136ac": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "ee7b6e22-328c-46d4-82b0-e6374454bf03",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "816a9555-4b45-4243-b5f8-6406898624de": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "CreateBoneObjects",
+        "TargetType": "System.Boolean",
+        "ParentId": "49f245b9-f500-4409-9d93-9febd3bc4688",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": false
+          }
+        ]
+      },
+      "b386c85c-f7b0-4b0d-88aa-de0353cfcae0": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "2295d8b7-311f-4933-b1e2-55f16cd42573"
+        },
+        "Name": "Point Light",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "a3823ad5-9d1b-418f-8e6a-d202bdffc601"
+      },
+      "60b1f9e9-1ccf-42ed-b917-b4c3b83c1afa": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "sit",
+        "TargetType": "System.Byte",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 0
+          }
+        ]
+      },
+      "931ed6b7-3728-4559-b0d1-3bbf47a21675": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "RenderType",
+        "TargetType": {
+          "$type": "Nested",
+          "DeclaringType": "Sandbox.ModelRenderer",
+          "Name": "ShadowRenderType"
+        },
+        "ParentId": "b678595d-4b0b-48a3-aaba-35e04f6df0b5",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "On"
+          }
+        ]
+      },
+      "ffcdd8d0-46ba-4958-b446-9143353d04e8": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "efa38600-5cfc-4278-b2b1-cfa70b4acdc4"
+        },
+        "Name": "SkinnedModelRenderer",
+        "TargetType": "Sandbox.SkinnedModelRenderer",
+        "ParentId": "93bee1cf-4c32-4382-8ab0-b139dcf71d37"
+      },
+      "9da72bc5-fbd0-492a-b6df-f531bebe76fa": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "b386c85c-f7b0-4b0d-88aa-de0353cfcae0",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "4042b313-1f64-47c4-a934-a4ebdaca0df3": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "MaterialOverride",
+        "TargetType": "Sandbox.Material",
+        "ParentId": "6cdd5e54-f439-4c4f-9fa0-e6281201a7e7",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": null
+          }
+        ]
+      },
+      "fa64fac2-c8de-420d-872f-933d3c8f4e9a": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "3f9b9409-f67f-48af-ba73-a0a756a776d4"
+        },
+        "Name": "Clothing - cardigan",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "8ff0a85d-43c0-4a99-a17a-7f86db1450ed"
+      },
+      "6355a3c7-4b16-47eb-95ca-e949c49e314d": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "0264412d-7e34-48d1-b1e0-f80c0b4ecff7",
+          "PrefabSource": "weapons/physgun/physgun_wm.prefab"
+        },
+        "Name": "physgun_wm",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "f8ef2d11-c0ed-4683-9bfe-a3a9fefdb82b"
+      },
+      "cef08f2e-088f-4cb5-990e-89b78e756810": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "1a1d465d-27ba-4703-ac05-25eaca6b2403",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "4d856ab9-6286-4309-96be-d52659c6ca0f": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Tint",
+        "TargetType": "Color",
+        "ParentId": "0d18d8b7-d184-4cfa-9b27-1efbc09bfcbb",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1,1"
+          }
+        ]
+      },
+      "961115f5-131b-4173-a5e9-a805f9eca7fa": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "duck",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 0
+          }
+        ]
+      },
+      "7480483e-47a1-4b95-9a22-52c34e59fed4": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "3",
+        "TargetType": "Vector3",
+        "ParentId": "2cc8a02a-c2a0-4076-ae58-c994074961ca",
+        "Blocks": [
+          {
+            "TimeRange": "1036,1320",
+            "Value": "-86.762146,265.785553,382"
+          }
+        ]
+      },
+      "5f821cb0-9913-4021-8ab8-d64d5799947a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "MaterialOverride",
+        "TargetType": "Sandbox.Material",
+        "ParentId": "0d18d8b7-d184-4cfa-9b27-1efbc09bfcbb",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": null
+          }
+        ]
+      },
+      "db1abf4f-81d6-4035-9019-1e56b8315ce6": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "a3823ad5-9d1b-418f-8e6a-d202bdffc601",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "2.55024004,0,0"
+          }
+        ]
+      },
+      "c06bf408-32cd-4e47-bc40-cdd0394a6775": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "BoneMergeTarget",
+        "TargetType": {
+          "$type": "Generic",
+          "ElementType": "Sandbox.MovieMaker.Properties.BindingReference`1",
+          "TypeArguments": [
+            "Sandbox.SkinnedModelRenderer"
+          ]
+        },
+        "ParentId": "49f245b9-f500-4409-9d93-9febd3bc4688",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "814a9112-fd6e-48ed-ba14-37e2d8de6a4c"
+          }
+        ]
+      },
+      "2b8759a8-28c0-4ddb-bbfa-e20f2ec51144": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "68e09d5c-5a38-4049-932d-16eba32ae70e"
+        },
+        "Name": "Burst",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "a3823ad5-9d1b-418f-8e6a-d202bdffc601"
+      },
+      "31416a42-4182-42ea-baa7-1b192954ca45": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_y",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACqXTjVOTdRwAcKiDm8NKuxGF3RpxoVkqNw1UhPH7fT1OCCfxkpWFctEaEY2tcbdkersh58qhzgZ7GHt5hI0NeNgODhCOpN2++DKvMMhYRx0Hd1YT00A7Ds4d9i905+d/+MTFxjwRfsrBYN6hUPCHfQJ0vZyKo+odeMucibEVR3AUDejcb0Z/HYNpG22oqHWidLIDj1Z4UDxxCo9pCvHt+zy8etAV/JRpDcY9ywQxqSdYvsJg9dk2nPnRgdEAiwFZOwqTXGhvdCOvqRN31rnRsMuNqyOd+Eu4G2e292KB8iim1Mhx7moljvcpsTJVhT6fAvv2VGEeuwl3P5KB8VwjPC8/DzenzaC70woXOmwQGHLAmpGFroV2eK/KBUUtbjjp6oRXY7xQcNMLn9VYwCBm4KLKCuFiG2zvt0H8Kw54MdkJmxR2kA5aQfjAAvc26yC/rBTm/s4CgWIv3FXlgFffA6W/9kDtWxyoNBxcmeJg/x8cRBY4GAlwsHiZg+EN3VCa7IIXTltgYDBK/tUpcf6GDz9Q+vB2fS+a1ByW7+3B0ZEufCbBizZtJx6OuDBf045DwyxWJjpxXmnH4mttuBJnxYxGBm0CC7LeZhSlmnFg/bdYgib8XX0ef3vtHH6RfBaXHEZsCZ5B1tSIR0oacDagxW0tWnx9pxYTrtXj6vcaHL+rxHC6DLnmYtxYLcHFwkTcLF0Mxj8SgWObEHjWlyC9gA/hhn/ogiFAj0V89Ev513SsSkzLNjxN/6xmyPGkJtKgNJCl4/WEFyonsVOUWHdnkDXTVjIhEBG1XkDGTvOJNOUpwkge5ubJdpDvxBZyOasZBMsXYc8dL/Df7Yb3F7wwVeSBz2vdsNXfAZnx7XBJzsLQgXtUOT9L16kmabZ8nK5PH6MjrX7Ku++ky48Zahe2US7TRlvLHHR23EkP2910XUk/DVUM0LTrfmr0D1JHtpeaxXYa6btAhcsGOhPSUU7/Ed31MIveNqZR3cRfhH3zDRLDJeae1CvgwGwN/GSoAbWoEFaG+bCFrJGZyZ+paFoLqqIT4PnmBFyZ1kN/kQFKMpsgI2SCoU+a4YaJAUl2GyTMueCd2g6ITnmg4kEXeGS9IL/kgw+7ffBVhMJjTZRKPj5Dpfk2EnOLzW1YtUuuL5lzlHHP5YRPGbKjqXX7nmzs//MfaaFzlxgEAAA="
+          }
+        ]
+      },
+      "cc703ce5-ab97-46a0-a751-c6c447c7e461": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "aim_eyes",
+        "TargetType": "Vector3",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "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"
+          }
+        ]
+      },
+      "bb1a71b7-14f7-49cf-9f4f-27bd0fb2c77f": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "9995299a-823d-42c0-8994-3bdad7fbdff7"
+        },
+        "Name": "arm_upper_R",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "eacd4deb-583c-41b6-8ffb-8bf50b770ad1"
+      },
+      "69dd782b-be22-41c9-927d-cb63149a427a": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "43a5168e-0715-401a-8b59-30f69af4b280"
+        },
+        "Name": "Clothing - bucket_hat_black",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "8ff0a85d-43c0-4a99-a17a-7f86db1450ed"
+      },
+      "2cc8a02a-c2a0-4076-ae58-c994074961ca": {
+        "$type": "Property",
+        "Format": "Editor",
+        "Name": "VectorPoints",
+        "TargetType": {
+          "$type": "Generic",
+          "ElementType": "System.Collections.Generic.List`1",
+          "TypeArguments": [
+            "Vector3"
+          ]
+        },
+        "ParentId": "ea48fa0c-79b7-4069-9956-527c17c4b50b"
+      },
+      "ec92b8bf-bc25-4ced-8d07-2fd068050b45": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "b678595d-4b0b-48a3-aaba-35e04f6df0b5",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "88bd0213-8538-44f3-8308-e87e49e85187": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Count",
+        "TargetType": "System.Int32",
+        "ParentId": "2cc8a02a-c2a0-4076-ae58-c994074961ca",
+        "Blocks": [
+          {
+            "TimeRange": "1036,1320",
+            "Value": 4
+          }
+        ]
+      },
+      "ef7097b8-edc0-48e7-8e25-bf7e784a24e1": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_rotationspeed",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACqXTwSuDcRjA8XfF3gNKshQ7LIfZtOmNlKTe912plYN5SZF4lYNyWUwtUa+UcVDLYSltVktWVhvLgay97zviQDYHHHbY1Zo1B3LYwel5vL+Tw771+RO+9Tqq5riOlAzu5REVUG2dBHekooDEzykSkz5ea33V4ABiX5kHB7kkum6ME5wnLQ5gO2RR93QEmXUMMjE0YeLjhQfRdALtn++h52CIkH2ModncLmq9aFe0CiUBSaO9iKOtqNIUJFjs8yoQqzZCokgj11ZOAUwwTvC/+ZBcnvkzZCdQxjMZeY7SQN72s1rN+g0eZCc/UZi9JUivw6gQmuOANG4lFGI6RFnyLJDMdxyoUu88WLCVCJ61J3RznCT0RHeQt38KOQNeJHRtIu5qifCwwqCBQIoDsn45rSXSiwpwGy8zoE4oqiDcYECmTFnRcuW/EPM9qALXWDuS3IKsVfux//cLZsWX9hgEAAA="
+          }
+        ]
+      },
+      "894eaa94-d5a1-40a2-ba00-835921a679a9": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_z",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 0
+          }
+        ]
+      },
+      "ca93a279-6457-432b-b9a0-3b0696d4bcb5": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "1873f065-b336-4795-94ca-a1e5f12283f4",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "cd5b1a31-f0e8-4c8b-bbcf-37301286fb8a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "IsActive",
+        "TargetType": "System.Boolean",
+        "ParentId": "455e5ffd-aec3-492f-8288-ce11f2e0c46f",
+        "Blocks": [
+          {
+            "TimeRange": "1036,1320",
+            "Value": true
+          }
+        ]
+      },
+      "f8ef2d11-c0ed-4683-9bfe-a3a9fefdb82b": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "17cad126-5a42-403f-84ea-6447bc29136f"
+        },
+        "Name": "hold_R",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "5af58f7a-23b6-42fb-8cad-a93853967667"
+      },
+      "02738d8e-b052-4be2-8951-8aa5f3bdefd2": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "f8404594-8a35-4017-9660-89064bff04fd",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "8ac809d6-0faa-4398-b755-60ee07f82d67": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "fa27e24a-6959-4b7f-933f-4cc324175aaa",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "25763604-67a0-4706-bf91-e03a170a7319": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_z",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 0
+          }
+        ]
+      },
+      "684dd553-5475-4dec-9562-359f08ea1cf8": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Model",
+        "TargetType": "Sandbox.Model",
+        "ParentId": "6cdd5e54-f439-4c4f-9fa0-e6281201a7e7",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "models/citizen_clothes/jumper/cardigan/models/cardigan_m_human.vmdl"
+          }
+        ]
+      },
+      "f2268e62-5bc3-433e-9ca0-6f6ac34c6a98": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "CreateBoneObjects",
+        "TargetType": "System.Boolean",
+        "ParentId": "ffcdd8d0-46ba-4958-b446-9143353d04e8",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": false
+          }
+        ]
+      },
+      "debbb6cf-57a5-4da8-9bfb-f14a3d905e9a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LightColor",
+        "TargetType": "Color",
+        "ParentId": "7926d640-1016-49bf-84a5-d1e163c53a7c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0.68333,1,1"
+          }
+        ]
+      },
+      "f8404594-8a35-4017-9660-89064bff04fd": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "f393549a-c3e1-440d-bd08-6cefd4084ca1"
+        },
+        "Name": "WorldPanel",
+        "TargetType": "Sandbox.WorldPanel",
+        "ParentId": "1a1d465d-27ba-4703-ac05-25eaca6b2403"
+      },
+      "e35419af-bb9a-463a-bde5-9aa233a35c43": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "473056f5-f32d-4f95-9091-d6f903078ef5",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "0f72b1a8-48af-45c4-8959-9be4d1e292e9": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Model",
+        "TargetType": "Sandbox.Model",
+        "ParentId": "b678595d-4b0b-48a3-aaba-35e04f6df0b5",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "models/citizen_clothes/shoes/boot_heels/models/boot_heels_f_human.vmdl"
+          }
+        ]
+      },
+      "5af58f7a-23b6-42fb-8cad-a93853967667": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "14b19297-a7cd-4924-ae32-683f57f77099"
+        },
+        "Name": "hand_R",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "16521fc3-3d49-4b03-b013-c64fa20afe12"
+      },
+      "99d51ff9-b0b3-47a8-9fee-f664410ceaf3": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "f8ef2d11-c0ed-4683-9bfe-a3a9fefdb82b",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "ec542979-97eb-4460-b30d-81b2b9057b50": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "059a1ca8-4e05-416b-9f4e-cb43ad470fc9",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "0f2911f8-2d7d-4398-a0f1-90dafd721ddd": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "c6f17892-aaf0-4fc6-8dcd-5b305eb5bb64",
+        "Blocks": [
+          {
+            "TimeRange": "1036,1320",
+            "Value": true
+          }
+        ]
+      },
+      "69783070-6d7a-47b5-ac8e-3f0aac24186f": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Alpha",
+        "TargetType": "Sandbox.ParticleFloat",
+        "ParentId": "fa27e24a-6959-4b7f-933f-4cc324175aaa",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": {
+              "Type": "Curve",
+              "Evaluation": "Life",
+              "CurveA": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.0828125,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.8421875,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "CurveB": [
+                {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "74bc2267-c40d-4a39-b2a1-f301fee08574": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "c2d3b16e-2c28-4eff-af1a-e1447afce69c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "338e58f9-bb68-44a8-ac4c-461b73f15d22": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Model",
+        "TargetType": "Sandbox.Model",
+        "ParentId": "0d18d8b7-d184-4cfa-9b27-1efbc09bfcbb",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "models/citizen_clothes/hat/bucket_hat/models/bucket_hat_black_m_human.vmdl"
+          }
+        ]
+      },
+      "1873f065-b336-4795-94ca-a1e5f12283f4": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "0c1e39a5-3931-49fd-adec-2ffc954f5af9"
+        },
+        "Name": "Clothing - y_front_pants_black",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "8ff0a85d-43c0-4a99-a17a-7f86db1450ed"
+      },
+      "f00f1528-e217-463b-a766-592721b09dde": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "BoneMergeTarget",
+        "TargetType": {
+          "$type": "Generic",
+          "ElementType": "Sandbox.MovieMaker.Properties.BindingReference`1",
+          "TypeArguments": [
+            "Sandbox.SkinnedModelRenderer"
+          ]
+        },
+        "ParentId": "6cdd5e54-f439-4c4f-9fa0-e6281201a7e7",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "814a9112-fd6e-48ed-ba14-37e2d8de6a4c"
+          }
+        ]
+      },
+      "bb97da61-6193-45ad-87f2-06556996cee4": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "a9ba7e80-3005-4a12-a1de-dddabc907565"
+        },
+        "Name": "ParticleEffect",
+        "TargetType": "Sandbox.ParticleEffect",
+        "ParentId": "346aeb88-e094-44c3-810b-3096cd908abe"
+      },
+      "914a7280-4f24-474f-967f-87ed1f4fa26b": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "RenderType",
+        "TargetType": {
+          "$type": "Nested",
+          "DeclaringType": "Sandbox.ModelRenderer",
+          "Name": "ShadowRenderType"
+        },
+        "ParentId": "ffcdd8d0-46ba-4958-b446-9143353d04e8",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "On"
+          }
+        ]
+      },
+      "1c90d638-18f3-4902-b0b2-8465b9b10861": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "93bee1cf-4c32-4382-8ab0-b139dcf71d37",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0,0"
+          }
+        ]
+      },
+      "c2d3b16e-2c28-4eff-af1a-e1447afce69c": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "aaa1d57a-f175-4bfd-ada2-59b23760af25",
+          "PrefabSource": "weapons/physgun/physgun.prefab"
+        },
+        "Name": "physgun",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "059a1ca8-4e05-416b-9f4e-cb43ad470fc9"
+      },
+      "ff4cc45c-cb12-4a83-aa19-3913586049f1": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "aim_head",
+        "TargetType": "Vector3",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "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"
+          }
+        ]
+      },
+      "346aeb88-e094-44c3-810b-3096cd908abe": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "2f49520a-ed5e-4aee-ae73-1050b66c5886"
+        },
+        "Name": "SmokeMouth",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "059a1ca8-4e05-416b-9f4e-cb43ad470fc9"
+      },
+      "cf0c5104-45c5-4a2e-812b-55cca9e46710": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalScale",
+        "TargetType": "Vector3",
+        "ParentId": "93bee1cf-4c32-4382-8ab0-b139dcf71d37",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1"
+          }
+        ]
+      },
+      "f1f183cf-f57c-457f-8aac-3fb109a9845c": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "c23e2a46-bf90-451b-ad6f-d824b4e0ac24",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "0d98f949-0ed6-43fc-89a2-25a3561346b6": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "8ff0a85d-43c0-4a99-a17a-7f86db1450ed",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "b0b44065-31fb-429d-9f0e-0809e73bb4a7": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "skid_x",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACgXBDTjUdxwAcBzN2zl5OSJvJabkZTxy7vdf5vJ4HosWRh7aeIawIyvFnjMvk2PaIVnKnRbuGs94Uifu/r/vj+XIU0+6Jq2zMXk4D5ujZOZtL5+Pkb6e3j8HXsgCoy7JuBpvWZqnuexVJJau/PG1NFyNpNuFplL3e9BWUZLf1ljv1fbE0LTNMbOlNeJJRes3ztzWTl918N6Ree6ppmokYf2CHt9gUBTPnCpjMCnL35jUjsicmtIYUbV1a8gjegjFVkuQuDYRqbpPg17YGTK8KSdO01oSBXr9G0kG/YyH68RLMkV06/3kleQKOaFOJhE39xF+pQY6r+bDnfdHsJQv4MzPtHPR1H7Ev3EWzW9fRzuf0ijHcA4phoyoB3w29UH/EepbYQq1vu8CZdybQ9lfpqjyxHG0198BNQ0m44R5Aajut8D2XBdkoS5g3ZWAdZEQzhllw4AFD4732AL/xyXMPRsJ2noL0hCZRgxcqglzpZpcPFdMovPiic+AGylI/gu0B+/Bm/nTINE/BNGbe0AV5A7lBiGg6oyD0JVYOJ8eAvKfTeF7bzEWTEzR8q2yEBOji9z4FTF3IbODm7bVzvX+XMJl1Uhw3AqD+KY5EWbANPzqKgOmIAMmdX6Q28GCpcvWYBVvCWxbYxiX6XDLOxqstsdYk9eMt3K/wuHBsXjB5hD2sDTG2d+p6ePPWmkXVR596zNnmgh6lTGJh5Wm9wv7BsJ2c4qqP+TotFc5A6lSDp91nZMvLuU09UwfaQ23pHM9kuhU31K617mKlq/10sl+b2mLOj5OGZnCvp5BYLJcDHG6BlA86gDR6CIUtriS+XF/csczjAQxEDG08SLm1lakcU4HuhNjYK53G3g55WBXGw6MCRv423oO+/h144Qvi7DovQBcU7lGDzEa6Z2So/RHoWZ0esefyvWPXytZi2zkw7KijkEGNRZYRVEVlRQ/9QIVmh9DCeSHqZeumyiavo3ORwegN7teh4R7R2G3Rw7gsZwLC8xKGDOrgabdtaBkiqD9qBDEDqXgX5cOgtlwyLbzgM4JSyzIbw7xejqjtFqOxAV7fsCd9gocYzmCyw4M4qOzd3Hmghg3FwmxaFKAeYZX6El3RwRNDWhjuwdl+sjRuzvXkLb4GbIaeYBy3BJQ1qXnXF5cFc5gpsItVicIF2fA/OQu4m9sTUYTnEgjx4Wk2bBJRYshYWnfQpbkIfgWDAF7hk1++v0gCZ5gE96/qxBsa0ZOzdqQOSaTlK6sQkrqY3Dj9oCdphY2kj+BtGEPkAzvYH73c7xfeBMzTc7ghBcR+GSgLdaEGeA29SBdktFFr8aJaJUiiQ4YdaHteSZ0/RdPlerua8qXxxKVAn17ZXbrf4oagULB0ggVky2hCqnjUp9Tt7zvf3qekGEYBAAA"
+          }
+        ]
+      },
+      "e50e450f-34a3-4705-8d31-c52120df77e5": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "BodyGroups",
+        "TargetType": "System.UInt64",
+        "ParentId": "814a9112-fd6e-48ed-ba14-37e2d8de6a4c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 681
+          }
+        ]
+      },
+      "3de7f9a0-1a4e-41dd-9b85-bc4b1e5d1150": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "efcf76de-ab27-4922-97a7-82eb0250bc4e",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "814a9112-fd6e-48ed-ba14-37e2d8de6a4c": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "1a1d9d2d-ff91-4f49-8090-e9eae94eef2d"
+        },
+        "Name": "SkinnedModelRenderer",
+        "TargetType": "Sandbox.SkinnedModelRenderer",
+        "ParentId": "8ff0a85d-43c0-4a99-a17a-7f86db1450ed"
+      },
+      "49f245b9-f500-4409-9d93-9febd3bc4688": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "71bea732-76d7-4587-9494-6908bbd19f11"
+        },
+        "Name": "SkinnedModelRenderer",
+        "TargetType": "Sandbox.SkinnedModelRenderer",
+        "ParentId": "1873f065-b336-4795-94ca-a1e5f12283f4"
+      },
+      "3a36a9fc-1ab4-4ea3-aafb-0cba893fe0a1": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "scale_heel",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": 0
+          }
+        ]
+      },
+      "076c8316-3a29-4595-b9c7-fa670fc2a055": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "053f3d38-3048-4f6d-b3ec-d65290971cea",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "52503dbd-952c-4be9-b7dd-6321d948a24a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "0166b7bf-75b5-4b1e-8dc2-5e49a4491ead",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "455e5ffd-aec3-492f-8288-ce11f2e0c46f": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "f957064e-d695-45b4-b150-4eef5d4cb3e5"
+        },
+        "Name": "SoundPointComponent",
+        "TargetType": "Sandbox.SoundPointComponent",
+        "ParentId": "dabe1d19-4192-4f4e-8d94-1d25b5243361"
+      },
+      "dcc9c3f3-63fd-4457-aa3d-695edd9943b4": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "1d9b0b65-e2fc-46f8-98a8-42b9b9cd0441"
+        },
+        "Name": "SoundPointComponent",
+        "TargetType": "Sandbox.SoundPointComponent",
+        "ParentId": "053f3d38-3048-4f6d-b3ec-d65290971cea"
+      },
+      "09f8dccb-84b7-4eab-b38e-107fa9f60a4c": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "fa64fac2-c8de-420d-872f-933d3c8f4e9a",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "0,0,0"
+          }
+        ]
+      },
+      "a049e148-9985-4bf8-8acb-b0157e2d4c88": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "69dd782b-be22-41c9-927d-cb63149a427a",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "1ac33a0b-a821-4f42-b79c-e39e7aa4c4b2": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "0d18d8b7-d184-4cfa-9b27-1efbc09bfcbb",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": true
+          }
+        ]
+      },
+      "6e5b1cc5-9bd0-4e71-8fc4-12274b06f67e": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalScale",
+        "TargetType": "Vector3",
+        "ParentId": "1873f065-b336-4795-94ca-a1e5f12283f4",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1"
+          }
+        ]
+      },
+      "c4dc12ef-24ed-4e02-b8d1-0682ca719774": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_x",
+        "TargetType": "System.Single",
+        "ParentId": "425a1adf-ff26-41b8-9735-fddbb536d90c",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACqXTjVPTZQAH8GFYvE0htM2bQKGIAp6ZjoGBuecLU7jykgC7Kw8jHJwXE8YvQB1JuHLGiTSDuphrON72Ax6BCu2U5Z5nZYBlDpW7zkNTDnVocRI18cL+he78/A+f+X6SJ1KarmENB/tYRXoAf5AawoXBBTwuMJAvHpTx/slVvPZSHE+zLuPmhKV8wemFfMXdGZYafYEVeN+F+5k6PAxpRuFSEUlnRWR6RKh6HciXxOHZ7c9jThqOrVlBqNg1Dy9lTpOKjbeI98ZV8sm/t8ii2xPE0HOZZYqfM2NSBjP2fcxLRmt4fYmRj8RU8dXfGfiA9ADfZqjhkbYkfiJMxp8WknnvhmRelruWC87lfKJJwaeU4bxjfTDPMT9mfw3+yS7tu8mkA1dYwRxn35pOs8aSNQhyJUBtXo7f3oiA9aoCKb7FmGFhMF2R43bjMqyyr4YiV4fQyFrUnDiGbMVn8HnM8MlqiTrLSOTSvUSTUEx0UW8TofxN4s7eTog9j1xO2EkiF7aS92OniUu2BnEZFLrsKrRsM6nf01xXr7ypInM3ikn/kXrirBdJSREnqq5RErHFS6al8zBUGYQPR8MQPSRH+94o9MauwA5LPC40v4hzRUrszN0Aw7lUWKkawUfTsS4nA4fTX4Ut53VU2rMwFp0PX3YhBIUes5v18D+pR0xUGR6qylH2hwG6kYNwn6/F+hozPthsRfGOFoQWNGFEYcHGV47jDLNhYk8L5Js68LfeAe0XnThj7kbayxQNAxSy8xQ/DVFc9FCYrlFcH6fQ3KFQTlL03KfYNEXx2gOKe9MUwgxFgJfC7qSI+CURwqf+qAo+RRJNNrLuUT/Rxv5M8pXj5Lnmf4iZ+GPybjCs9hboxlthfdQGra8d7t0dMBQ6IM8TcdEtYm2biJWNIrzlIva9I2JRgIg7yQ74yxyoLHCgT+LAyJgD7JCIpIhOKKydSHmqCz3DXRB2d2PM1Y1ELUXoJIXkMUWK6gCO5FVjyaFqfBNbhzHRhvsaipPDbYicr8eSj0rht6UUbboiWPa/ha9PbYXHosavaYn4ck88GutfQHWrl+1XzrLwXT8ypaSdqT0pbDbnK9exkG5XvF3gQ/di+O91w8x5dMY12+TnarDOfW8JnXIeN2qdYuC1AU3dD2efbOz/8x+KlTfqGAQAAA=="
+          }
+        ]
+      },
+      "a3baab83-9b19-4cbf-a9ce-8a4eb856eddf": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "BoneMergeTarget",
+        "TargetType": {
+          "$type": "Generic",
+          "ElementType": "Sandbox.MovieMaker.Properties.BindingReference`1",
+          "TypeArguments": [
+            "Sandbox.SkinnedModelRenderer"
+          ]
+        },
+        "ParentId": "0d18d8b7-d184-4cfa-9b27-1efbc09bfcbb",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "814a9112-fd6e-48ed-ba14-37e2d8de6a4c"
+          }
+        ]
+      },
+      "626a61c2-f895-442d-827c-e5d270b7418a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalScale",
+        "TargetType": "Vector3",
+        "ParentId": "efcf76de-ab27-4922-97a7-82eb0250bc4e",
+        "Blocks": [
+          {
+            "TimeRange": "0,31282",
+            "Value": "1,1,1"
+          }
+        ]
+      }
+    },
+    "References": []
+  },
+  "__references": [],
+  "__version": 0
+}

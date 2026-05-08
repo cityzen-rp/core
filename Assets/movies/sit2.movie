@@ -1,0 +1,6287 @@
+{
+  "EditorData": {
+    "SampleRate": 30,
+    "Duration": 108614,
+    "ExportConfig": null,
+    "Tracks": {
+      "2a530f12-5636-45cd-aad7-e06593533d8b": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_x",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "358bb493-d413-423e-bbb7-b37dced07f8b": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_speed",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "6f95690a-5449-4ed1-b803-5c63ac24c5c7": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "ae8e9128-8c23-4577-bcc6-c92594303390"
+        },
+        "Name": "WorldPanel",
+        "TargetType": "Sandbox.WorldPanel",
+        "ParentId": "5f7f47cb-8844-4775-a23f-657a8c2819ce"
+      },
+      "edabe200-7813-4100-b297-94e2c40083c9": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "69586c63-c9fe-4e29-adab-263fc21f53f4",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "be89eca1-c5bf-4921-958a-0ca7443cbcd9": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "0d232c8f-89bc-45c3-88a6-3db2ec714dc0",
+          "PrefabSource": "weapons/tracer_9mm.prefab"
+        },
+        "Name": "tracer_9mm",
+        "TargetType": "Sandbox.GameObject"
+      },
+      "14281987-7081-4f38-aa37-b9831e41cc51": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "b_reload",
+        "TargetType": "System.Boolean",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "95773,108614",
+            "Value": false
+          }
+        ]
+      },
+      "5f131ba9-2b56-4f72-b46a-28b8d10cd322": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "47880787-3ef3-4b97-8c43-dadd5804be21",
+        "Blocks": [
+          {
+            "TimeRange": "47625,61440",
+            "Value": true
+          },
+          {
+            "TimeRange": "80400,108614",
+            "Value": true
+          }
+        ]
+      },
+      "8b73a1dc-b4f4-4357-a635-fbc5993f5d81": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "9b70a92d-6179-4160-92cd-539e04efbb3b"
+        },
+        "Name": "Tracer",
+        "TargetType": "Tracer",
+        "ParentId": "be89eca1-c5bf-4921-958a-0ca7443cbcd9"
+      },
+      "bf002378-8866-4839-8bbd-6dc90196a2b1": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "f765bcea-2ee2-4424-a257-902ecb6afd09"
+        },
+        "Name": "Tracer",
+        "TargetType": "Tracer",
+        "ParentId": "9ec083aa-2d17-4ea6-9ad1-415289b6157d"
+      },
+      "c24a2d5b-5aea-443a-9e7a-b9c21e7aebd4": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "41dd43b1-7771-49ef-ba38-ca2a63be4334"
+        },
+        "Name": "ParticleSpriteRenderer",
+        "TargetType": "Sandbox.ParticleSpriteRenderer",
+        "ParentId": "69093b44-e5b8-477c-b0d2-16f813a98c46"
+      },
+      "69093b44-e5b8-477c-b0d2-16f813a98c46": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "865d349b-cce2-4787-9676-3ee6af663afc"
+        },
+        "Name": "SmokeMouth",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "795940a3-262c-4326-bd9a-e92eca001ad5"
+      },
+      "f1001bc1-197f-4d17-a9b4-2e8e46ed28a4": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "707b4329-07f3-4e82-9da1-c1c3b9e5b5c0"
+        },
+        "Name": "ParticleEffect",
+        "TargetType": "Sandbox.ParticleEffect",
+        "ParentId": "69093b44-e5b8-477c-b0d2-16f813a98c46"
+      },
+      "52bcc495-75c2-4ee7-92c6-121c089a669c": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_z",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "3058d58a-8880-45cb-9b3b-459b85ef6a73": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "e336a3e0-3b91-45dd-a89f-9c0c243a70f0",
+        "Blocks": [
+          {
+            "TimeRange": "86880,90480",
+            "Value": "423.148834,423.801025,439.877594"
+          },
+          {
+            "TimeRange": "90960,94680",
+            "Value": "422.787537,423.01886,439.159393"
+          }
+        ]
+      },
+      "a1fa0b24-884c-4efb-9076-0b4c9fe62f02": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "c24a2d5b-5aea-443a-9e7a-b9c21e7aebd4",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "ec0b0224-e356-4432-b7c8-a29d094bed91": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "be89eca1-c5bf-4921-958a-0ca7443cbcd9",
+        "Blocks": [
+          {
+            "TimeRange": "89082,92640",
+            "Value": "422.687805,423.490387,439.801392"
+          }
+        ]
+      },
+      "2a9a4598-cc5b-4249-b26b-91308fa676fd": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_y",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "edb1ffe6-ecd2-4729-8649-91b829b1eaba": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "aim_body",
+        "TargetType": "Vector3",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "SampleRate": 30,
+            "Samples": "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"
+          }
+        ]
+      },
+      "b6130f68-9221-4760-aaf6-dd820b9579da": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "aim_head_weight",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 1
+          }
+        ]
+      },
+      "764d9341-233a-45b3-932b-c38d080c3714": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "795940a3-262c-4326-bd9a-e92eca001ad5",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "5f7f47cb-8844-4775-a23f-657a8c2819ce": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "1e895bf2-ce6a-42ce-854b-96a835002542"
+        },
+        "Name": "World",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "795940a3-262c-4326-bd9a-e92eca001ad5"
+      },
+      "951b7b05-0875-483a-98eb-3afd9eb10f8f": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "14ebdb0b-ec17-4d23-a5a1-2a56ceeb5d6f",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "34797464-5538-407b-89f6-ecabf39ada70": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "9b687a5c-6d5e-4c90-b565-cbb02c700560",
+        "Blocks": [
+          {
+            "TimeRange": "85536,89160",
+            "Value": true
+          },
+          {
+            "TimeRange": "90120,93840",
+            "Value": true
+          }
+        ]
+      },
+      "9bc432b7-6f10-4abb-8fc1-b497bab93ee9": {
+        "$type": "Property",
+        "Format": "Editor",
+        "Name": "holdtype",
+        "TargetType": "System.Byte",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Signal": {
+              "$id": 1,
+              "$type": "HardCut",
+              "Time": 80520,
+              "First": {
+                "$id": 2,
+                "$type": "HardCut",
+                "Time": 61560,
+                "First": {
+                  "$id": 3,
+                  "$type": "HardCut",
+                  "Time": 47640,
+                  "First": {
+                    "$id": 4,
+                    "$type": "Constant",
+                    "Value": 4
+                  },
+                  "Second": {
+                    "$id": 5,
+                    "$type": "Constant",
+                    "Value": 1
+                  }
+                },
+                "Second": {
+                  "$id": 6,
+                  "$type": "Constant",
+                  "Value": 4
+                }
+              },
+              "Second": {
+                "$id": 7,
+                "$type": "Constant",
+                "Value": 1
+              }
+            }
+          }
+        ]
+      },
+      "2db062da-b2ee-4dc2-ae98-e86e3782f8be": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_x",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "a946c0d4-ce40-4726-a45e-2d3a7314c764": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "b_grounded",
+        "TargetType": "System.Boolean",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "5ffacc49-58f3-4bb8-b8d2-17c8a0b5166e": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_groundspeed",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "6a61a210-2172-4fc2-a1e9-84c861802357": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "d0ba2645-770a-4223-ad30-21ef2cb86e8b",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "01739161-0d61-438f-b18d-2b397dc7e9c1": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "holdtype_pose_hand",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACutiZmDQjOm3HcWjYTCaBkbTwGgaGE0DxKQBhlEwrMBovh/N9wORBgY63Y+CUTAKGIgCAJiwNFcsDgAA"
+          }
+        ]
+      },
+      "2a5d3f53-23a2-4345-960f-205a50a45088": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "2034241a-dda8-4ed3-a057-445c04c84474"
+        },
+        "Name": "ModelRenderer",
+        "TargetType": "Sandbox.ModelRenderer",
+        "ParentId": "f981ca2c-eff8-4417-bf79-26e3bc99af74"
+      },
+      "7b23a994-3ca2-4258-9b95-b9553b63bad0": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "e166140e-94da-45be-81ef-917894fdb759"
+        },
+        "Name": "SkinnedModelRenderer",
+        "TargetType": "Sandbox.SkinnedModelRenderer",
+        "ParentId": "52e113aa-46fc-4620-b2dc-4bb220d76e54"
+      },
+      "32be4fd6-0e75-446d-aa51-1ebab316a372": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "5b8a2192-f917-463f-a6c8-808dc3c35323"
+        },
+        "Name": "ModelRenderer",
+        "TargetType": "Sandbox.ModelRenderer",
+        "ParentId": "504b146a-5b64-46ff-8b63-409dc06433cb"
+      },
+      "eea84d6a-9aca-4e5a-be4c-8c2a8730074a": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "e7752112-de1c-4b5a-85cb-bc059fde0c0c"
+        },
+        "Name": "ParticleSphereEmitter",
+        "TargetType": "Sandbox.ParticleSphereEmitter",
+        "ParentId": "69093b44-e5b8-477c-b0d2-16f813a98c46"
+      },
+      "795940a3-262c-4326-bd9a-e92eca001ad5": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "86fc9f6c-94a8-4927-b829-a1dda43b2768",
+          "PrefabSource": "prefabs/engine/player.prefab"
+        },
+        "Name": "Touxoo",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "ada249ce-9917-46de-82d5-99d55e159346"
+      },
+      "4c51ee18-cd03-48c6-9a06-0a9516ff0d56": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "da55ed3b-392d-4321-93e2-a7010e276e58"
+        },
+        "Name": "spine_0",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "bf7f15d0-0120-4855-a917-b593b83e6f81"
+      },
+      "30a587ea-e485-4774-b3e1-03d6c761626a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "2a5d3f53-23a2-4345-960f-205a50a45088",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "3a8344a3-d80d-4604-9369-9ab36ce91602": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "32be4fd6-0e75-446d-aa51-1ebab316a372",
+        "Blocks": [
+          {
+            "TimeRange": "0,47640",
+            "Value": true
+          },
+          {
+            "TimeRange": "61440,80520",
+            "Value": true
+          }
+        ]
+      },
+      "7caa6914-cd27-4793-b4e7-88e96431d61f": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_speed",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "bf89f338-c2ad-45d3-8139-4b57547d9360": {
+        "$type": "Property",
+        "Format": "Editor",
+        "Name": "b_smoking",
+        "TargetType": "System.Boolean",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "8935,108614",
+            "Signal": {
+              "$id": 1,
+              "$type": "HardCut",
+              "Time": 69000,
+              "First": {
+                "$id": 2,
+                "$type": "HardCut",
+                "Time": 63720,
+                "First": {
+                  "$id": 3,
+                  "$type": "HardCut",
+                  "Time": 33960,
+                  "First": {
+                    "$id": 4,
+                    "$type": "HardCut",
+                    "Time": 26880,
+                    "First": {
+                      "$id": 5,
+                      "$type": "HardCut",
+                      "Time": 15960,
+                      "First": {
+                        "$id": 6,
+                        "$type": "Constant",
+                        "Value": true
+                      },
+                      "Second": {
+                        "$id": 7,
+                        "$type": "Constant",
+                        "Value": false
+                      }
+                    },
+                    "Second": {
+                      "$id": 8,
+                      "$type": "Constant",
+                      "Value": true
+                    }
+                  },
+                  "Second": {
+                    "$id": 9,
+                    "$type": "Constant",
+                    "Value": false
+                  }
+                },
+                "Second": {
+                  "$id": 10,
+                  "$type": "Constant",
+                  "Value": true
+                }
+              },
+              "Second": {
+                "$id": 11,
+                "$type": "Constant",
+                "Value": false
+              }
+            }
+          }
+        ]
+      },
+      "81ebbf44-7388-4e9d-8dc0-773a18e6a738": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "f981ca2c-eff8-4417-bf79-26e3bc99af74",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "edb79b83-5741-4942-b170-81dde6d2e8b6": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_groundspeed",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "b2311315-f07d-49e9-af81-026aa0dfe340": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "ecb46e68-104b-4dee-8d9b-6e43cd3d2c9b",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "ece2172e-0fda-4083-b0b6-b05fa71af626": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "9ec083aa-2d17-4ea6-9ad1-415289b6157d",
+        "Blocks": [
+          {
+            "TimeRange": "87621,91200",
+            "Value": "423.512085,423.602386,439.509033"
+          },
+          {
+            "TimeRange": "91920,95640",
+            "Value": "422.734131,423.025574,439.309143"
+          }
+        ]
+      },
+      "cb857e15-a78e-4999-bd86-39d4c71bfb8e": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "sit_offset_height",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 2.6873617
+          }
+        ]
+      },
+      "5adbbfb2-cfef-4e2c-bd95-a8f8854c9133": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "IsActive",
+        "TargetType": "System.Boolean",
+        "ParentId": "bf002378-8866-4839-8bbd-6dc90196a2b1",
+        "Blocks": [
+          {
+            "TimeRange": "87621,91200",
+            "Offset": -21,
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACpNjYGBgRAUMqAAApcnc1CIAAAA="
+          },
+          {
+            "TimeRange": "91920,95640",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACpNnYGBgRAMMqAAAeuKcFSMAAAA="
+          }
+        ]
+      },
+      "c2f12fba-4c57-4ba1-aae7-0dc3b54940aa": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "4c51ee18-cd03-48c6-9a06-0a9516ff0d56",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "4d9b591a-e831-42fc-be72-b98b5f8c1665": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "b795fcae-06b7-4e8c-b9f0-fca4bba2f0e8"
+        },
+        "Name": "arm_lower_R",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "69586c63-c9fe-4e29-adab-263fc21f53f4"
+      },
+      "bf7f15d0-0120-4855-a917-b593b83e6f81": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "f8b00dab-2fd1-4277-9cf9-b87ffe6634f6"
+        },
+        "Name": "pelvis",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "194d077f-1525-4daa-9deb-721083486c14"
+      },
+      "d1031252-2788-400e-9199-3f9958f466e0": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "7697ae00-f189-4328-a630-35798db4e926",
+        "Blocks": [
+          {
+            "TimeRange": "47625,61440",
+            "Value": true
+          },
+          {
+            "TimeRange": "80400,108614",
+            "Value": true
+          }
+        ]
+      },
+      "9112e1ac-83f8-440e-8e51-9555329fdc6a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_direction",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "69586c63-c9fe-4e29-adab-263fc21f53f4": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "2a8b3fff-bacc-4fe3-8d07-d496004e9fb4"
+        },
+        "Name": "arm_upper_R",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "d0ba2645-770a-4223-ad30-21ef2cb86e8b"
+      },
+      "e675165a-c39a-4c29-a342-86bd67413ffa": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "93aa04e9-b9a0-43b3-a823-49bacc6d4213",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "cda320c8-1f8a-418a-a9c0-b11ae6c8ae78": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "b_climbing",
+        "TargetType": "System.Boolean",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": false
+          }
+        ]
+      },
+      "47880787-3ef3-4b97-8c43-dadd5804be21": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "280d2fa1-bda4-4d02-b411-b5504fecb3a4"
+        },
+        "Name": "SkinnedModelRenderer",
+        "TargetType": "Sandbox.SkinnedModelRenderer",
+        "ParentId": "d1c79d05-f7ea-44e6-a259-4a20b67fb2ae"
+      },
+      "c810cfb3-ed82-4f95-83d7-8ef0a65c7b86": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "d81c8c56-1875-4aa1-bee9-b53291cc8e56",
+        "Blocks": [
+          {
+            "TimeRange": "85536,89160",
+            "Value": true
+          },
+          {
+            "TimeRange": "90120,93840",
+            "Value": true
+          }
+        ]
+      },
+      "52e113aa-46fc-4620-b2dc-4bb220d76e54": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "19b7227c-6447-4662-b19a-cd5bc2b4e176"
+        },
+        "Name": "Clothing - y_front_pants_white",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "194d077f-1525-4daa-9deb-721083486c14"
+      },
+      "6f809f77-f75e-4d97-aa64-aaf0ec945521": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "duck",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "d81c8c56-1875-4aa1-bee9-b53291cc8e56": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "7592434a-2f47-475f-964c-6ced2d935744"
+        },
+        "Name": "Tracer",
+        "TargetType": "Tracer",
+        "ParentId": "9b687a5c-6d5e-4c90-b565-cbb02c700560"
+      },
+      "d0ba2645-770a-4223-ad30-21ef2cb86e8b": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "0148575c-cd65-497c-9864-107ed52c0c3f"
+        },
+        "Name": "clavicle_R",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "df67690f-a594-45fa-b8e2-3fa5e4b12335"
+      },
+      "9636f4c3-ce88-451f-9047-fc638f6c3e46": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "ff4b5575-16cb-49ac-a562-7a47f14c7b8c",
+        "Blocks": [
+          {
+            "TimeRange": "86880,90480",
+            "Value": true
+          },
+          {
+            "TimeRange": "90960,94680",
+            "Value": true
+          }
+        ]
+      },
+      "9b4038ca-37ec-4165-bb1f-ec993753f1bb": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "504b146a-5b64-46ff-8b63-409dc06433cb",
+        "Blocks": [
+          {
+            "TimeRange": "0,47640",
+            "Value": true
+          },
+          {
+            "TimeRange": "61440,80520",
+            "Value": true
+          }
+        ]
+      },
+      "3f73ecbd-0b3a-4cc2-83cb-d1892f132102": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "e970dcd9-2c3e-4275-8766-e6fe53bfe1b3",
+          "PrefabSource": "addons/vape/prefabs/vape_wm.prefab"
+        },
+        "Name": "vape_wm",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "93aa04e9-b9a0-43b3-a823-49bacc6d4213"
+      },
+      "c6a527e0-097e-4e88-98a4-9f0b54a0037b": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "IsActive",
+        "TargetType": "System.Boolean",
+        "ParentId": "ff4b5575-16cb-49ac-a562-7a47f14c7b8c",
+        "Blocks": [
+          {
+            "TimeRange": "86880,90480",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACpNjYGBgRAUMqAAApcnc1CIAAAA="
+          },
+          {
+            "TimeRange": "90960,94680",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACpNnYGBgRAUMaAAA63P0uyMAAAA="
+          }
+        ]
+      },
+      "aebdf991-8284-4e61-a85c-3e03a5bca91a": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_direction",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "b2556798-5223-4fbf-bf92-99eb749505ea": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "194d077f-1525-4daa-9deb-721083486c14",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "da96598d-fc63-4e2f-8a7e-08d1284d83bb": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "9b687a5c-6d5e-4c90-b565-cbb02c700560",
+        "Blocks": [
+          {
+            "TimeRange": "85536,89160",
+            "Value": "423.292419,424.038605,440.438629"
+          },
+          {
+            "TimeRange": "90120,93840",
+            "Value": "422.777344,423.076813,439.136108"
+          }
+        ]
+      },
+      "9ec083aa-2d17-4ea6-9ad1-415289b6157d": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "521a8534-53ce-457a-8015-83dc15001b28",
+          "PrefabSource": "weapons/tracer_9mm.prefab"
+        },
+        "Name": "tracer_9mm",
+        "TargetType": "Sandbox.GameObject"
+      },
+      "9065e171-df52-4d62-8dfb-f8ddd63ccd06": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "e336a3e0-3b91-45dd-a89f-9c0c243a70f0",
+        "Blocks": [
+          {
+            "TimeRange": "86880,90480",
+            "Value": "-0.158960074,-0.13842012,-0.343856424,0.915059686"
+          },
+          {
+            "TimeRange": "90960,94680",
+            "Value": "-0.143182293,-0.100880176,-0.36617732,0.913912833"
+          }
+        ]
+      },
+      "329a9b4f-b3dd-4b26-a2c8-649432814feb": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "9ec083aa-2d17-4ea6-9ad1-415289b6157d",
+        "Blocks": [
+          {
+            "TimeRange": "87621,91200",
+            "Value": true
+          },
+          {
+            "TimeRange": "91920,95640",
+            "Value": true
+          }
+        ]
+      },
+      "1032aa38-0f7c-4257-8794-59f0c35024a5": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "scale_heel",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "9b687a5c-6d5e-4c90-b565-cbb02c700560": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "c9c13d19-1b24-4358-b03b-d84ffa2058af",
+          "PrefabSource": "weapons/tracer_9mm.prefab"
+        },
+        "Name": "tracer_9mm",
+        "TargetType": "Sandbox.GameObject"
+      },
+      "7e6cb941-14dd-4ad1-a132-7dc64e3438fa": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "69093b44-e5b8-477c-b0d2-16f813a98c46",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "df67690f-a594-45fa-b8e2-3fa5e4b12335": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "98983d61-8900-409b-a347-294fcc1d4ea0"
+        },
+        "Name": "spine_2",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "be43c3d8-b0a4-48f5-ba56-62691698a4c4"
+      },
+      "7b39a9cb-d050-43a8-a683-470557e55231": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "d1c79d05-f7ea-44e6-a259-4a20b67fb2ae",
+        "Blocks": [
+          {
+            "TimeRange": "47625,61440",
+            "Value": true
+          },
+          {
+            "TimeRange": "80400,108614",
+            "Value": true
+          }
+        ]
+      },
+      "957d19cb-a6db-4953-a00d-733869ba28ea": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "bf002378-8866-4839-8bbd-6dc90196a2b1",
+        "Blocks": [
+          {
+            "TimeRange": "87621,91200",
+            "Value": true
+          },
+          {
+            "TimeRange": "91920,95640",
+            "Value": true
+          }
+        ]
+      },
+      "51115a9d-b911-435a-8e05-dc6537a06e78": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_rotationspeed",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0.027809143
+          }
+        ]
+      },
+      "6f70b62a-260e-4126-95b9-5fb6bf2a228c": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "4d9b591a-e831-42fc-be72-b98b5f8c1665",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "72efc4bf-d59b-4187-92f4-e1fece5c4cd9": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "3f73ecbd-0b3a-4cc2-83cb-d1892f132102",
+        "Blocks": [
+          {
+            "TimeRange": "0,47640",
+            "Value": true
+          },
+          {
+            "TimeRange": "61440,80520",
+            "Value": true
+          }
+        ]
+      },
+      "3b460f92-15c3-4601-83d0-e075f134b21f": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "9b687a5c-6d5e-4c90-b565-cbb02c700560",
+        "Blocks": [
+          {
+            "TimeRange": "85536,89160",
+            "Value": "-0.172612354,-0.144885913,-0.343308896,0.911785245"
+          },
+          {
+            "TimeRange": "90120,93840",
+            "Value": "-0.143472418,-0.104026467,-0.361553997,0.915354013"
+          }
+        ]
+      },
+      "0952ee5e-76fa-4e29-8049-6853c223000e": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "IsActive",
+        "TargetType": "System.Boolean",
+        "ParentId": "8b73a1dc-b4f4-4357-a635-fbc5993f5d81",
+        "Blocks": [
+          {
+            "TimeRange": "89082,92640",
+            "Offset": -42,
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACpNjYGBgRAUMqAAApcnc1CIAAAA="
+          }
+        ]
+      },
+      "d1c79d05-f7ea-44e6-a259-4a20b67fb2ae": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "d1ec3dd7-05d3-4a59-8d19-45d39cb78b83"
+        },
+        "Name": "w_1911",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "7697ae00-f189-4328-a630-35798db4e926"
+      },
+      "10b643fd-02ab-4e72-927c-29946cb282d6": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "f981ca2c-eff8-4417-bf79-26e3bc99af74",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": "420.678162,441.080811,382.080444"
+          }
+        ]
+      },
+      "f6c0a77b-7492-4a73-9047-275a3ff8edfb": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "e336a3e0-3b91-45dd-a89f-9c0c243a70f0",
+        "Blocks": [
+          {
+            "TimeRange": "86880,90480",
+            "Value": true
+          },
+          {
+            "TimeRange": "90960,94680",
+            "Value": true
+          }
+        ]
+      },
+      "591ce718-16b2-4b9e-bd4e-5a1dc9efb32b": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "InitialVelocity",
+        "TargetType": "Sandbox.ParticleVector3",
+        "ParentId": "f1001bc1-197f-4d17-a9b4-2e8e46ed28a4",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "SampleRate": 30,
+            "Samples": [
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 481.4194,
+                "Y": 4.357977,
+                "Z": -134.96834
+              },
+              {
+                "X": 480.58334,
+                "Y": 14.464511,
+                "Z": -137.22406
+              },
+              {
+                "X": 478.57373,
+                "Y": 34.593216,
+                "Z": -140.6077
+              },
+              {
+                "X": 472.64093,
+                "Y": 69.95192,
+                "Z": -147.36844
+              },
+              {
+                "X": 453.2241,
+                "Y": 145.4333,
+                "Z": -153.09221
+              },
+              {
+                "X": 418.3895,
+                "Y": 222.13304,
+                "Z": -160.02232
+              },
+              {
+                "X": 391.67667,
+                "Y": 260.0686,
+                "Z": -170.15796
+              },
+              {
+                "X": 368.52472,
+                "Y": 287.90778,
+                "Z": -176.91422
+              },
+              {
+                "X": 334.2429,
+                "Y": 324.53488,
+                "Z": -181.5456
+              },
+              {
+                "X": 308.9879,
+                "Y": 351.90186,
+                "Z": -175.19014
+              },
+              {
+                "X": 278.32675,
+                "Y": 380.48108,
+                "Z": -166.63826
+              },
+              {
+                "X": 250.38757,
+                "Y": 400.2459,
+                "Z": -164.64902
+              },
+              {
+                "X": 220.22295,
+                "Y": 418.8056,
+                "Z": -161.56676
+              },
+              {
+                "X": 201.37096,
+                "Y": 428.1336,
+                "Z": -161.71368
+              },
+              {
+                "X": 201.37096,
+                "Y": 428.1336,
+                "Z": -161.71368
+              },
+              {
+                "X": 201.37096,
+                "Y": 428.1336,
+                "Z": -161.71368
+              },
+              {
+                "X": 201.37096,
+                "Y": 428.1336,
+                "Z": -161.71368
+              },
+              {
+                "X": 201.37096,
+                "Y": 428.1336,
+                "Z": -161.71368
+              },
+              {
+                "X": 201.37096,
+                "Y": 428.1336,
+                "Z": -161.71368
+              },
+              {
+                "X": 201.37096,
+                "Y": 428.1336,
+                "Z": -161.71368
+              },
+              {
+                "X": 202.3735,
+                "Y": 427.6637,
+                "Z": -161.7059
+              },
+              {
+                "X": 202.3735,
+                "Y": 427.6637,
+                "Z": -161.7059
+              },
+              {
+                "X": 202.3735,
+                "Y": 427.6637,
+                "Z": -161.7059
+              },
+              {
+                "X": 199.24303,
+                "Y": 431.57288,
+                "Z": -155.07135
+              },
+              {
+                "X": 192.19142,
+                "Y": 437.82205,
+                "Z": -146.19974
+              },
+              {
+                "X": 180.45944,
+                "Y": 447.97968,
+                "Z": -129.4166
+              },
+              {
+                "X": 174.8295,
+                "Y": 452.39963,
+                "Z": -121.5291
+              },
+              {
+                "X": 171.11723,
+                "Y": 455.5822,
+                "Z": -114.73332
+              },
+              {
+                "X": 170.3023,
+                "Y": 456.73328,
+                "Z": -111.318634
+              },
+              {
+                "X": 169.23181,
+                "Y": 457.129,
+                "Z": -111.326996
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 169.31361,
+                "Y": 457.37534,
+                "Z": -110.18479
+              },
+              {
+                "X": 413.76147,
+                "Y": -258.99084,
+                "Z": -108.28297
+              },
+              {
+                "X": 410.05725,
+                "Y": -263.37885,
+                "Z": -111.734825
+              },
+              {
+                "X": 410.05725,
+                "Y": -263.37885,
+                "Z": -111.734825
+              },
+              {
+                "X": 410.62207,
+                "Y": -261.01828,
+                "Z": -115.14764
+              },
+              {
+                "X": 413.3242,
+                "Y": -254.63983,
+                "Z": -119.6737
+              },
+              {
+                "X": 413.79196,
+                "Y": -252.24823,
+                "Z": -123.07336
+              },
+              {
+                "X": 413.88934,
+                "Y": -250.9703,
+                "Z": -125.338036
+              },
+              {
+                "X": 414.04535,
+                "Y": -248.40108,
+                "Z": -129.85912
+              },
+              {
+                "X": 413.78595,
+                "Y": -248.23973,
+                "Z": -130.98994
+              },
+              {
+                "X": 413.5242,
+                "Y": -248.07697,
+                "Z": -132.11998
+              },
+              {
+                "X": 413.5242,
+                "Y": -248.07697,
+                "Z": -132.11998
+              },
+              {
+                "X": 412.41226,
+                "Y": -248.71173,
+                "Z": -134.38248
+              },
+              {
+                "X": 400.9248,
+                "Y": -262.6779,
+                "Z": -142.33656
+              },
+              {
+                "X": 385.60617,
+                "Y": -280.5771,
+                "Z": -150.28137
+              },
+              {
+                "X": 362.48154,
+                "Y": -304.7279,
+                "Z": -160.46205
+              },
+              {
+                "X": 331.81607,
+                "Y": -333.40353,
+                "Z": -169.52966
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 321.77625,
+                "Y": -341.96902,
+                "Z": -171.80571
+              },
+              {
+                "X": 320.17056,
+                "Y": -343.46664,
+                "Z": -171.81827
+              },
+              {
+                "X": 293.2326,
+                "Y": -362.39905,
+                "Z": -180.78069
+              },
+              {
+                "X": 266.34808,
+                "Y": -380.93085,
+                "Z": -184.25613
+              },
+              {
+                "X": 228.38957,
+                "Y": -404.19852,
+                "Z": -185.63887
+              },
+              {
+                "X": 196.49504,
+                "Y": -420.51807,
+                "Z": -185.88779
+              },
+              {
+                "X": 182.27266,
+                "Y": -425.8747,
+                "Z": -188.16864
+              },
+              {
+                "X": 157.035,
+                "Y": -435.72754,
+                "Z": -188.36559
+              },
+              {
+                "X": 156.01381,
+                "Y": -436.09073,
+                "Z": -188.37354
+              },
+              {
+                "X": 156.01381,
+                "Y": -436.09073,
+                "Z": -188.37354
+              },
+              {
+                "X": 156.01381,
+                "Y": -436.09073,
+                "Z": -188.37354
+              },
+              {
+                "X": 156.01381,
+                "Y": -436.09073,
+                "Z": -188.37354
+              },
+              {
+                "X": 156.01381,
+                "Y": -436.09073,
+                "Z": -188.37354
+              },
+              {
+                "X": 156.01381,
+                "Y": -436.09073,
+                "Z": -188.37354
+              },
+              {
+                "X": 156.01381,
+                "Y": -436.09073,
+                "Z": -188.37354
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 154.99176,
+                "Y": -436.4516,
+                "Z": -188.38152
+              },
+              {
+                "X": 156.01381,
+                "Y": -436.09073,
+                "Z": -188.37354
+              },
+              {
+                "X": 162.56122,
+                "Y": -435.11432,
+                "Z": -185.06604
+              },
+              {
+                "X": 180.72852,
+                "Y": -433.81537,
+                "Z": -170.70876
+              },
+              {
+                "X": 233.58752,
+                "Y": -423.52396,
+                "Z": -126.74551
+              },
+              {
+                "X": 255.79369,
+                "Y": -419.06595,
+                "Z": -94.62208
+              },
+              {
+                "X": 254.2088,
+                "Y": -423.33966,
+                "Z": -78.49489
+              },
+              {
+                "X": 247.87093,
+                "Y": -428.67242,
+                "Z": -69.28177
+              },
+              {
+                "X": 247.87093,
+                "Y": -428.67242,
+                "Z": -69.28177
+              },
+              {
+                "X": 247.87093,
+                "Y": -428.67242,
+                "Z": -69.28177
+              },
+              {
+                "X": 247.87093,
+                "Y": -428.67242,
+                "Z": -69.28177
+              },
+              {
+                "X": 247.87093,
+                "Y": -428.67242,
+                "Z": -69.28177
+              },
+              {
+                "X": 249.87671,
+                "Y": -427.50894,
+                "Z": -69.2661
+              },
+              {
+                "X": 270.4313,
+                "Y": -414.44617,
+                "Z": -71.42381
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 279.97632,
+                "Y": -407.8676,
+                "Z": -72.50778
+              },
+              {
+                "X": 240.62033,
+                "Y": -405.98453,
+                "Z": 165.16147
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 237.55844,
+                "Y": -407.34363,
+                "Z": 166.24431
+              },
+              {
+                "X": 239.31836,
+                "Y": -408.0921,
+                "Z": 161.82576
+              },
+              {
+                "X": 242.78903,
+                "Y": -409.4641,
+                "Z": 152.94661
+              },
+              {
+                "X": 249.61313,
+                "Y": -409.76328,
+                "Z": 140.66771
+              },
+              {
+                "X": 251.96045,
+                "Y": -411.31723,
+                "Z": 131.65884
+              },
+              {
+                "X": 252.12776,
+                "Y": -411.57492,
+                "Z": 130.52849
+              },
+              {
+                "X": 252.12776,
+                "Y": -411.57492,
+                "Z": 130.52849
+              },
+              {
+                "X": 252.45819,
+                "Y": -412.08347,
+                "Z": 128.2657
+              },
+              {
+                "X": 252.78313,
+                "Y": -412.58298,
+                "Z": 125.999985
+              },
+              {
+                "X": 253.4163,
+                "Y": -413.55475,
+                "Z": 121.46043
+              },
+              {
+                "X": 254.4708,
+                "Y": -415.1681,
+                "Z": 113.49073
+              },
+              {
+                "X": 255.01067,
+                "Y": -418.07782,
+                "Z": 100.898384
+              },
+              {
+                "X": 252.94695,
+                "Y": -425.4366,
+                "Z": 70.862785
+              },
+              {
+                "X": 251.47212,
+                "Y": -427.41162,
+                "Z": 63.883335
+              },
+              {
+                "X": 246.11395,
+                "Y": -431.949,
+                "Z": 53.367123
+              },
+              {
+                "X": 244.34996,
+                "Y": -433.50012,
+                "Z": 48.690422
+              },
+              {
+                "X": 240.67935,
+                "Y": -436.38724,
+                "Z": 40.492058
+              },
+              {
+                "X": 239.7592,
+                "Y": -437.10434,
+                "Z": 38.14867
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.80853,
+                "Y": -437.17767,
+                "Z": 36.980614
+              },
+              {
+                "X": 239.9033,
+                "Y": -437.31708,
+                "Z": 34.64398
+              },
+              {
+                "X": 240.07706,
+                "Y": -437.56705,
+                "Z": 29.96847
+              },
+              {
+                "X": 240.15607,
+                "Y": -437.67755,
+                "Z": 27.629673
+              },
+              {
+                "X": 240.29822,
+                "Y": -437.86993,
+                "Z": 22.950336
+              },
+              {
+                "X": 240.3614,
+                "Y": -437.9517,
+                "Z": 20.6099
+              },
+              {
+                "X": 240.3614,
+                "Y": -437.9517,
+                "Z": 20.6099
+              },
+              {
+                "X": 240.3614,
+                "Y": -437.9517,
+                "Z": 20.6099
+              },
+              {
+                "X": 240.3614,
+                "Y": -437.9517,
+                "Z": 20.6099
+              },
+              {
+                "X": 240.3614,
+                "Y": -437.9517,
+                "Z": 20.6099
+              },
+              {
+                "X": 240.3614,
+                "Y": -437.9517,
+                "Z": 20.6099
+              },
+              {
+                "X": 240.3614,
+                "Y": -437.9517,
+                "Z": 20.6099
+              },
+              {
+                "X": 248.63934,
+                "Y": -433.50055,
+                "Z": 15.991449
+              },
+              {
+                "X": 294.95853,
+                "Y": -403.69006,
+                "Z": 5.812183
+              },
+              {
+                "X": 360.22388,
+                "Y": -346.75397,
+                "Z": -0.70667267
+              },
+              {
+                "X": 477.4395,
+                "Y": -147.73663,
+                "Z": -15.014842
+              },
+              {
+                "X": 497.56717,
+                "Y": 40.720917,
+                "Z": -27.72524
+              },
+              {
+                "X": 431.79004,
+                "Y": 249.62967,
+                "Z": -35.24784
+              },
+              {
+                "X": 350.31964,
+                "Y": 354.31015,
+                "Z": -41.719303
+              },
+              {
+                "X": 273.79745,
+                "Y": 415.02594,
+                "Z": -52.805946
+              },
+              {
+                "X": 246.46925,
+                "Y": 430.3749,
+                "Z": -63.48477
+              },
+              {
+                "X": 223.45224,
+                "Y": 441.30313,
+                "Z": -72.942856
+              },
+              {
+                "X": 185.9413,
+                "Y": 456.32822,
+                "Z": -84.79634
+              },
+              {
+                "X": 147.6221,
+                "Y": 468.76645,
+                "Z": -92.00942
+              },
+              {
+                "X": 124.34603,
+                "Y": 475.2109,
+                "Z": -93.341545
+              },
+              {
+                "X": 96.24964,
+                "Y": 481.1931,
+                "Z": -95.860344
+              },
+              {
+                "X": 82.62776,
+                "Y": 483.23566,
+                "Z": -98.264145
+              },
+              {
+                "X": 55.32658,
+                "Y": 486.84073,
+                "Z": -99.62507
+              },
+              {
+                "X": 10.6772785,
+                "Y": 490.01993,
+                "Z": -98.825294
+              },
+              {
+                "X": -7.692501,
+                "Y": 490.0471,
+                "Z": -98.9686
+              },
+              {
+                "X": -12.284085,
+                "Y": 489.94626,
+                "Z": -99.00445
+              },
+              {
+                "X": -16.874552,
+                "Y": 489.80237,
+                "Z": -99.04025
+              },
+              {
+                "X": -31.73177,
+                "Y": 488.57016,
+                "Z": -101.4515
+              },
+              {
+                "X": -37.45216,
+                "Y": 488.15558,
+                "Z": -101.49613
+              },
+              {
+                "X": -38.56759,
+                "Y": 487.82703,
+                "Z": -102.65172
+              },
+              {
+                "X": -38.56759,
+                "Y": 487.82703,
+                "Z": -102.65172
+              },
+              {
+                "X": -38.56759,
+                "Y": 487.82703,
+                "Z": -102.65172
+              },
+              {
+                "X": -38.56759,
+                "Y": 487.82703,
+                "Z": -102.65172
+              },
+              {
+                "X": -38.56759,
+                "Y": 487.82703,
+                "Z": -102.65172
+              },
+              {
+                "X": -38.56759,
+                "Y": 487.82703,
+                "Z": -102.65172
+              },
+              {
+                "X": -38.56759,
+                "Y": 487.82703,
+                "Z": -102.65172
+              },
+              {
+                "X": -38.56759,
+                "Y": 487.82703,
+                "Z": -102.65172
+              },
+              {
+                "X": -38.56759,
+                "Y": 487.82703,
+                "Z": -102.65172
+              },
+              {
+                "X": -38.56759,
+                "Y": 487.82703,
+                "Z": -102.65172
+              },
+              {
+                "X": -38.56759,
+                "Y": 487.82703,
+                "Z": -102.65172
+              },
+              {
+                "X": -40.852665,
+                "Y": 487.6372,
+                "Z": -102.669556
+              },
+              {
+                "X": -41.965023,
+                "Y": 487.2982,
+                "Z": -103.824524
+              },
+              {
+                "X": -41.965023,
+                "Y": 487.2982,
+                "Z": -103.824524
+              },
+              {
+                "X": -43.106453,
+                "Y": 487.1967,
+                "Z": -103.833435
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": -43.07568,
+                "Y": 486.95374,
+                "Z": -104.97895
+              },
+              {
+                "X": 423.63586,
+                "Y": -200.3806,
+                "Z": -174.29955
+              },
+              {
+                "X": 423.63586,
+                "Y": -200.3806,
+                "Z": -174.29955
+              },
+              {
+                "X": 423.63586,
+                "Y": -200.3806,
+                "Z": -174.29955
+              },
+              {
+                "X": 423.63586,
+                "Y": -200.3806,
+                "Z": -174.29955
+              },
+              {
+                "X": 423.63586,
+                "Y": -200.3806,
+                "Z": -174.29955
+              },
+              {
+                "X": 423.63586,
+                "Y": -200.3806,
+                "Z": -174.29955
+              },
+              {
+                "X": 422.21713,
+                "Y": -203.34334,
+                "Z": -174.31062
+              },
+              {
+                "X": 415.5278,
+                "Y": -218.38933,
+                "Z": -172.17094
+              },
+              {
+                "X": 411.18115,
+                "Y": -227.27145,
+                "Z": -171.10747
+              },
+              {
+                "X": 409.0335,
+                "Y": -231.10191,
+                "Z": -171.12425
+              },
+              {
+                "X": 402.14682,
+                "Y": -243.62053,
+                "Z": -170.07967
+              },
+              {
+                "X": 393.94247,
+                "Y": -256.6329,
+                "Z": -170.1437
+              },
+              {
+                "X": 390.6235,
+                "Y": -262.352,
+                "Z": -169.07034
+              },
+              {
+                "X": 380.18478,
+                "Y": -277.88162,
+                "Z": -168.05157
+              },
+              {
+                "X": 357.74857,
+                "Y": -307.9242,
+                "Z": -164.92036
+              },
+              {
+                "X": 347.32968,
+                "Y": -322.38278,
+                "Z": -159.47264
+              },
+              {
+                "X": 337.85254,
+                "Y": -334.87488,
+                "Z": -153.99527
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 333.60434,
+                "Y": -340.09464,
+                "Z": -151.80185
+              },
+              {
+                "X": 323.91602,
+                "Y": -379.5935,
+                "Z": -31.42032
+              },
+              {
+                "X": 323.91602,
+                "Y": -379.5935,
+                "Z": -31.42032
+              },
+              {
+                "X": 319.3606,
+                "Y": -383.23212,
+                "Z": -33.792896
+              },
+              {
+                "X": 317.51575,
+                "Y": -384.65634,
+                "Z": -34.975513
+              },
+              {
+                "X": 316.56628,
+                "Y": -385.3296,
+                "Z": -36.150917
+              },
+              {
+                "X": 315.61374,
+                "Y": -385.99835,
+                "Z": -37.32614
+              },
+              {
+                "X": 315.61374,
+                "Y": -385.99835,
+                "Z": -37.32614
+              },
+              {
+                "X": 315.61374,
+                "Y": -385.99835,
+                "Z": -37.32614
+              },
+              {
+                "X": 315.61374,
+                "Y": -385.99835,
+                "Z": -37.32614
+              },
+              {
+                "X": 315.61374,
+                "Y": -385.99835,
+                "Z": -37.32614
+              },
+              {
+                "X": 317.3678,
+                "Y": -384.44376,
+                "Z": -38.480015
+              },
+              {
+                "X": 329.6325,
+                "Y": -373.61484,
+                "Z": -41.88566
+              },
+              {
+                "X": 350.8715,
+                "Y": -353.6241,
+                "Z": -42.886467
+              },
+              {
+                "X": 384.6564,
+                "Y": -316.58,
+                "Z": -42.6227
+              },
+              {
+                "X": 447.01886,
+                "Y": -221.03496,
+                "Z": -36.30004
+              },
+              {
+                "X": 475.10135,
+                "Y": -151.85481,
+                "Z": -34.91275
+              },
+              {
+                "X": 488.74768,
+                "Y": -98.72293,
+                "Z": -37.141304
+              },
+              {
+                "X": 491.44052,
+                "Y": -83.78737,
+                "Z": -38.28756
+              },
+              {
+                "X": 491.144,
+                "Y": -81.36135,
+                "Z": -46.45446
+              },
+              {
+                "X": 489.87933,
+                "Y": -82.316605,
+                "Z": -56.941517
+              },
+              {
+                "X": 487.84323,
+                "Y": -85.48471,
+                "Z": -68.56684
+              },
+              {
+                "X": 486.61487,
+                "Y": -87.61051,
+                "Z": -74.36665
+              },
+              {
+                "X": 477.9069,
+                "Y": -105.77251,
+                "Z": -102.064476
+              },
+              {
+                "X": 469.808,
+                "Y": -124.9036,
+                "Z": -116.95987
+              },
+              {
+                "X": 460.81238,
+                "Y": -143.49165,
+                "Z": -130.62233
+              },
+              {
+                "X": 448.8626,
+                "Y": -158.34824,
+                "Z": -153.12828
+              },
+              {
+                "X": 441.257,
+                "Y": -164.95795,
+                "Z": -167.5745
+              },
+              {
+                "X": 428.72107,
+                "Y": -175.21378,
+                "Z": -188.41043
+              },
+              {
+                "X": 425.83325,
+                "Y": -178.6822,
+                "Z": -191.67369
+              },
+              {
+                "X": 424.16318,
+                "Y": -180.30783,
+                "Z": -193.84184
+              },
+              {
+                "X": 424.16318,
+                "Y": -180.30783,
+                "Z": -193.84184
+              },
+              {
+                "X": 423.74567,
+                "Y": -180.1261,
+                "Z": -194.92107
+              },
+              {
+                "X": 422.46933,
+                "Y": -183.08899,
+                "Z": -194.93103
+              },
+              {
+                "X": 419.41046,
+                "Y": -189.96707,
+                "Z": -194.95496
+              },
+              {
+                "X": 415.777,
+                "Y": -197.76498,
+                "Z": -194.98335
+              },
+              {
+                "X": 406.74146,
+                "Y": -218.55304,
+                "Z": -191.82286
+              },
+              {
+                "X": 369.66846,
+                "Y": -287.7808,
+                "Z": -174.72112
+              },
+              {
+                "X": 348.6701,
+                "Y": -317.5561,
+                "Z": -166.0943
+              },
+              {
+                "X": 240.66902,
+                "Y": -415.2305,
+                "Z": -140.22171
+              },
+              {
+                "X": 183.4415,
+                "Y": -447.09778,
+                "Z": -128.2684
+              },
+              {
+                "X": 133.20573,
+                "Y": -469.09705,
+                "Z": -110.47265
+              },
+              {
+                "X": 75.58912,
+                "Y": -484.83502,
+                "Z": -96.02809
+              },
+              {
+                "X": 31.061054,
+                "Y": -490.52304,
+                "Z": -91.77399
+              },
+              {
+                "X": -0.014722347,
+                "Y": -491.67447,
+                "Z": -90.8647
+              },
+              {
+                "X": -0.014722347,
+                "Y": -491.67447,
+                "Z": -90.8647
+              },
+              {
+                "X": 1.1371374,
+                "Y": -491.67477,
+                "Z": -90.85575
+              },
+              {
+                "X": 2.2889078,
+                "Y": -491.67242,
+                "Z": -90.846794
+              },
+              {
+                "X": 5.7444572,
+                "Y": -491.64914,
+                "Z": -90.819824
+              },
+              {
+                "X": 6.896228,
+                "Y": -491.636,
+                "Z": -90.81081
+              },
+              {
+                "X": 6.896228,
+                "Y": -491.636,
+                "Z": -90.81081
+              },
+              {
+                "X": 6.896228,
+                "Y": -491.636,
+                "Z": -90.81081
+              },
+              {
+                "X": 6.896228,
+                "Y": -491.636,
+                "Z": -90.81081
+              },
+              {
+                "X": 2.2891164,
+                "Y": -491.67245,
+                "Z": -90.84675
+              },
+              {
+                "X": -4.6330395,
+                "Y": -491.85748,
+                "Z": -89.74859
+              },
+              {
+                "X": -8.089632,
+                "Y": -491.80783,
+                "Z": -89.77556
+              },
+              {
+                "X": -27.642578,
+                "Y": -490.85678,
+                "Z": -91.080215
+              },
+              {
+                "X": -56.257366,
+                "Y": -487.9273,
+                "Z": -93.60615
+              },
+              {
+                "X": -84.624695,
+                "Y": -483.3199,
+                "Z": -96.128136
+              },
+              {
+                "X": -147.11543,
+                "Y": -467.99844,
+                "Z": -96.61548
+              },
+              {
+                "X": -187.16875,
+                "Y": -453.64575,
+                "Z": -95.77765
+              },
+              {
+                "X": -212.7742,
+                "Y": -443.14606,
+                "Z": -91.37179
+              },
+              {
+                "X": -212.7742,
+                "Y": -443.14606,
+                "Z": -91.37179
+              },
+              {
+                "X": -213.91183,
+                "Y": -442.83258,
+                "Z": -90.228004
+              },
+              {
+                "X": -214.9487,
+                "Y": -442.32864,
+                "Z": -90.236115
+              },
+              {
+                "X": -214.9487,
+                "Y": -442.32864,
+                "Z": -90.236115
+              },
+              {
+                "X": -216.08423,
+                "Y": -442.00723,
+                "Z": -89.091835
+              },
+              {
+                "X": -219.38356,
+                "Y": -440.8343,
+                "Z": -86.809875
+              },
+              {
+                "X": -218.73117,
+                "Y": -442.0435,
+                "Z": -82.183914
+              },
+              {
+                "X": -218.91444,
+                "Y": -442.37643,
+                "Z": -79.87218
+              },
+              {
+                "X": -220.12933,
+                "Y": -442.1838,
+                "Z": -77.56685
+              },
+              {
+                "X": -221.25282,
+                "Y": -441.82306,
+                "Z": -76.41755
+              },
+              {
+                "X": -221.25282,
+                "Y": -441.82306,
+                "Z": -76.41755
+              },
+              {
+                "X": -223.3205,
+                "Y": -440.7788,
+                "Z": -76.43367
+              },
+              {
+                "X": -224.44046,
+                "Y": -440.40762,
+                "Z": -75.28396
+              },
+              {
+                "X": -241.88951,
+                "Y": -431.24802,
+                "Z": -74.26113
+              },
+              {
+                "X": -246.82999,
+                "Y": -428.23016,
+                "Z": -75.458496
+              },
+              {
+                "X": -246.53821,
+                "Y": -427.77203,
+                "Z": -78.93035
+              },
+              {
+                "X": -246.4383,
+                "Y": -427.6147,
+                "Z": -80.0868
+              },
+              {
+                "X": -246.33693,
+                "Y": -427.45496,
+                "Z": -81.24277
+              },
+              {
+                "X": -246.2343,
+                "Y": -427.29294,
+                "Z": -82.39831
+              },
+              {
+                "X": -227.70741,
+                "Y": -436.80814,
+                "Z": -85.72024
+              },
+              {
+                "X": -169.689,
+                "Y": -462.53116,
+                "Z": -85.26787
+              },
+              {
+                "X": 26.478619,
+                "Y": -492.80353,
+                "Z": -80.27157
+              },
+              {
+                "X": 111.12748,
+                "Y": -481.13986,
+                "Z": -78.454895
+              },
+              {
+                "X": 275.17932,
+                "Y": -411.11267,
+                "Z": -72.54514
+              },
+              {
+                "X": 353.04388,
+                "Y": -347.3805,
+                "Z": -68.46079
+              },
+              {
+                "X": 394.53186,
+                "Y": -300.5212,
+                "Z": -63.49597
+              },
+              {
+                "X": 414.9003,
+                "Y": -272.27762,
+                "Z": -61.014256
+              },
+              {
+                "X": 434.12845,
+                "Y": -240.47461,
+                "Z": -60.864048
+              },
+              {
+                "X": 452.01398,
+                "Y": -205.2698,
+                "Z": -59.56243
+              },
+              {
+                "X": 459.38904,
+                "Y": -188.2044,
+                "Z": -59.50479
+              },
+              {
+                "X": 462.7054,
+                "Y": -179.51706,
+                "Z": -60.64073
+              },
+              {
+                "X": 462.43616,
+                "Y": -178.15062,
+                "Z": -66.44673
+              },
+              {
+                "X": 461.5745,
+                "Y": -179.0496,
+                "Z": -69.93124
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              },
+              {
+                "X": 461.15375,
+                "Y": -180.1291,
+                "Z": -69.93452
+              }
+            ]
+          }
+        ]
+      },
+      "c67d98e3-cac6-4e57-9a77-48c90efcc367": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "5f7f47cb-8844-4775-a23f-657a8c2819ce",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "f981ca2c-eff8-4417-bf79-26e3bc99af74": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "71e4a1c4-bf10-4b17-98ef-b85cc522a0b6",
+          "PrefabSource": "entities/sents/chairs/plastic-chair.prefab"
+        },
+        "Name": "plastic-chair (1)",
+        "TargetType": "Sandbox.GameObject"
+      },
+      "a5a18b25-b1fc-4e21-9492-f0049b0e81c0": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "b_swim",
+        "TargetType": "System.Boolean",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": false
+          }
+        ]
+      },
+      "a8d3bd19-0e04-465f-b65f-c241dc66b980": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "eea84d6a-9aca-4e5a-be4c-8c2a8730074a",
+        "Blocks": [
+          {
+            "TimeRange": "15958,23040",
+            "Value": true
+          },
+          {
+            "TimeRange": "33960,41160",
+            "Value": true
+          },
+          {
+            "TimeRange": "68880,74280",
+            "Value": true
+          }
+        ]
+      },
+      "f805a922-e7f2-4d23-b56d-362dcaacd0aa": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "f1001bc1-197f-4d17-a9b4-2e8e46ed28a4",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "703b7db8-c6f6-4107-b2ce-3d86ef815f83": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "9ec083aa-2d17-4ea6-9ad1-415289b6157d",
+        "Blocks": [
+          {
+            "TimeRange": "87621,91200",
+            "Value": "-0.136541814,-0.117604628,-0.342582315,0.922042787"
+          },
+          {
+            "TimeRange": "91920,95640",
+            "Value": "-0.144996285,-0.103952706,-0.369771034,0.911833048"
+          }
+        ]
+      },
+      "c3479680-983f-4336-9de0-0b6100fad9db": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "bf7f15d0-0120-4855-a917-b593b83e6f81",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "c25e1489-3459-4456-bfb0-cd0300e8a2be": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "df67690f-a594-45fa-b8e2-3fa5e4b12335",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "504b146a-5b64-46ff-8b63-409dc06433cb": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "57fc9765-a602-402e-b04a-933795c7953e"
+        },
+        "Name": "vape",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "3f73ecbd-0b3a-4cc2-83cb-d1892f132102"
+      },
+      "3d16e29a-1fd9-415e-9da1-75f54a8dc7c9": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "wish_z",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "946a24fd-9d4e-41dd-bcdd-18b1b0f2bb26": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "be43c3d8-b0a4-48f5-ba56-62691698a4c4",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "aafb74a3-f9c6-40f1-8c62-1a54d4417bfd": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "scale_height",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 1
+          }
+        ]
+      },
+      "5892c32d-3773-439d-b769-f4ff7ebbe3a3": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "8b73a1dc-b4f4-4357-a635-fbc5993f5d81",
+        "Blocks": [
+          {
+            "TimeRange": "89082,92640",
+            "Value": true
+          }
+        ]
+      },
+      "a5487505-479d-4a8f-bce1-2d4a6f0583ef": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "be89eca1-c5bf-4921-958a-0ca7443cbcd9",
+        "Blocks": [
+          {
+            "TimeRange": "89082,92640",
+            "Value": "-0.1780058,-0.128089368,-0.349567831,0.910884023"
+          }
+        ]
+      },
+      "86102d68-731c-4003-921b-6cfdfcc50b77": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "aim_head",
+        "TargetType": "Vector3",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "SampleRate": 30,
+            "Samples": "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"
+          }
+        ]
+      },
+      "52f966c8-a920-4d38-a5ff-7a4ea12d391d": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "IsActive",
+        "TargetType": "System.Boolean",
+        "ParentId": "d81c8c56-1875-4aa1-bee9-b53291cc8e56",
+        "Blocks": [
+          {
+            "TimeRange": "85536,89160",
+            "Offset": -96,
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACpNnYGBgRAUMaAAA63P0uyMAAAA="
+          },
+          {
+            "TimeRange": "90120,93840",
+            "SampleRate": 30,
+            "Samples": "H4sIAAAAAAAACpNnYGBgRAUMaAAA63P0uyMAAAA="
+          }
+        ]
+      },
+      "b671b2f4-8115-4047-a3d6-63bc60a51e04": {
+        "$type": "Property",
+        "Format": "Editor",
+        "Name": "holdtype_handedness",
+        "TargetType": "System.Byte",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Signal": {
+              "$id": 1,
+              "$type": "HardCut",
+              "Time": 80520,
+              "First": {
+                "$id": 2,
+                "$type": "HardCut",
+                "Time": 61560,
+                "First": {
+                  "$id": 3,
+                  "$type": "HardCut",
+                  "Time": 47640,
+                  "First": {
+                    "$id": 4,
+                    "$type": "Constant",
+                    "Value": 1
+                  },
+                  "Second": {
+                    "$id": 5,
+                    "$type": "Constant",
+                    "Value": 0
+                  }
+                },
+                "Second": {
+                  "$id": 6,
+                  "$type": "Constant",
+                  "Value": 1
+                }
+              },
+              "Second": {
+                "$id": 7,
+                "$type": "Constant",
+                "Value": 0
+              }
+            }
+          }
+        ]
+      },
+      "194d077f-1525-4daa-9deb-721083486c14": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "4d579f84-21bf-4b5c-b2d0-282ed904dc82"
+        },
+        "Name": "Player Body",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "795940a3-262c-4326-bd9a-e92eca001ad5"
+      },
+      "47b0b09b-ab29-4f5a-ade4-bf210c8e1f78": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "skid_y",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "c451fb33-1a42-4953-83f5-f935bf8909ea": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "skid_x",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "a9b5f8b0-1aff-4b8c-b29d-e5cd7ecaee79": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "sit",
+        "TargetType": "System.Byte",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 1
+          }
+        ]
+      },
+      "eaba48f7-8906-4a19-b8e4-4354227208a2": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "move_y",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 0
+          }
+        ]
+      },
+      "9c612ae2-1ca8-44e3-a740-3026d0769ea7": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "7b23a994-3ca2-4258-9b95-b9553b63bad0",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "e336a3e0-3b91-45dd-a89f-9c0c243a70f0": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "469ce5ed-09ff-43cc-83ba-c64c2762f1c0",
+          "PrefabSource": "weapons/tracer_9mm.prefab"
+        },
+        "Name": "tracer_9mm",
+        "TargetType": "Sandbox.GameObject"
+      },
+      "598bea82-7c15-42f6-a70a-8c99f3adc1d8": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "ada249ce-9917-46de-82d5-99d55e159346",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "be43c3d8-b0a4-48f5-ba56-62691698a4c4": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "ff83b338-c824-47f8-aba1-b5f3f9af8b90"
+        },
+        "Name": "spine_1",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "4c51ee18-cd03-48c6-9a06-0a9516ff0d56"
+      },
+      "6e0d44c2-14f8-45bf-a06a-00eda011309d": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "_character_type",
+        "TargetType": "System.Byte",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 1
+          }
+        ]
+      },
+      "f426d44c-cd8e-4078-b72c-bcd276c0303d": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "52e113aa-46fc-4620-b2dc-4bb220d76e54",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "203008d4-5faf-4274-88f2-4e710645f74d": {
+        "$type": "Property",
+        "Format": "Editor",
+        "Name": "Parameters",
+        "TargetType": {
+          "$type": "Nested",
+          "DeclaringType": "Sandbox.SkinnedModelRenderer",
+          "Name": "ParameterAccessor"
+        },
+        "ParentId": "ecb46e68-104b-4dee-8d9b-6e43cd3d2c9b"
+      },
+      "20561089-eb86-4e6f-b4c1-179315a529a2": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "6f95690a-5449-4ed1-b803-5c63ac24c5c7",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": true
+          }
+        ]
+      },
+      "14ebdb0b-ec17-4d23-a5a1-2a56ceeb5d6f": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "e20518e3-81d7-401d-859b-a2215a7e3650"
+        },
+        "Name": "hand_R",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "4d9b591a-e831-42fc-be72-b98b5f8c1665"
+      },
+      "94a2606f-c2c0-4715-bfe1-93ea6125c85b": {
+        "$type": "Property",
+        "Format": "Editor",
+        "Name": "IsActive",
+        "TargetType": "System.Boolean",
+        "ParentId": "f1001bc1-197f-4d17-a9b4-2e8e46ed28a4",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Signal": {
+              "$id": 1,
+              "$type": "HardCut",
+              "Time": 102480,
+              "First": {
+                "$id": 2,
+                "$type": "HardCut",
+                "Time": 15960,
+                "First": {
+                  "$id": 3,
+                  "$type": "Constant",
+                  "Value": false
+                },
+                "Second": {
+                  "$id": 4,
+                  "$type": "Constant",
+                  "Value": true
+                }
+              },
+              "Second": {
+                "$id": 5,
+                "$type": "Constant",
+                "Value": false
+              }
+            }
+          }
+        ]
+      },
+      "7697ae00-f189-4328-a630-35798db4e926": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "91a80191-400e-4e59-a8e0-a0b02f3b8d52",
+          "PrefabSource": "weapons/colt1911/colt1911_wm.prefab"
+        },
+        "Name": "colt1911_wm",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "93aa04e9-b9a0-43b3-a823-49bacc6d4213"
+      },
+      "b4db0c16-20bd-4f76-8b94-6a19ed9eaf88": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "Enabled",
+        "TargetType": "System.Boolean",
+        "ParentId": "be89eca1-c5bf-4921-958a-0ca7443cbcd9",
+        "Blocks": [
+          {
+            "TimeRange": "89082,92640",
+            "Value": true
+          }
+        ]
+      },
+      "a3c18f95-a960-424a-b56a-fc82ec7b0114": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "aim_body_weight",
+        "TargetType": "System.Single",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": 1
+          }
+        ]
+      },
+      "10c283c0-9655-40c8-8efd-16a7a651438f": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "LocalRotation",
+        "TargetType": "Rotation",
+        "ParentId": "f981ca2c-eff8-4417-bf79-26e3bc99af74",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "Value": "4.00141562E-06,-0.0038999184,-0.000150465028,0.99999243"
+          }
+        ]
+      },
+      "ada249ce-9917-46de-82d5-99d55e159346": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "1824bc55-9699-4204-886c-6b2bb278c781"
+        },
+        "Name": "sit",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "f981ca2c-eff8-4417-bf79-26e3bc99af74"
+      },
+      "93aa04e9-b9a0-43b3-a823-49bacc6d4213": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "731a961e-f8fc-4501-89ab-b98565a945c5"
+        },
+        "Name": "hold_R",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "14ebdb0b-ec17-4d23-a5a1-2a56ceeb5d6f"
+      },
+      "ecb46e68-104b-4dee-8d9b-6e43cd3d2c9b": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "4b77ce5c-00c7-4d16-92c3-400cbb443afb"
+        },
+        "Name": "SkinnedModelRenderer",
+        "TargetType": "Sandbox.SkinnedModelRenderer",
+        "ParentId": "194d077f-1525-4daa-9deb-721083486c14"
+      },
+      "4bda5773-ac25-429f-b7fb-b5f5cfb7f580": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "b_attack",
+        "TargetType": "System.Boolean",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "85536,108614",
+            "Value": false
+          }
+        ]
+      },
+      "0c7e9a5d-fc1b-4ef2-94a7-6a6d39798e52": {
+        "$type": "Property",
+        "Format": "Compiled",
+        "Name": "aim_eyes",
+        "TargetType": "Vector3",
+        "ParentId": "203008d4-5faf-4274-88f2-4e710645f74d",
+        "Blocks": [
+          {
+            "TimeRange": "0,108614",
+            "SampleRate": 30,
+            "Samples": "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"
+          }
+        ]
+      },
+      "ff4b5575-16cb-49ac-a562-7a47f14c7b8c": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "adee9e8a-6016-43f2-ac02-90425307aea2"
+        },
+        "Name": "Tracer",
+        "TargetType": "Tracer",
+        "ParentId": "e336a3e0-3b91-45dd-a89f-9c0c243a70f0"
+      }
+    },
+    "References": []
+  },
+  "__references": [],
+  "__version": 0
+}
