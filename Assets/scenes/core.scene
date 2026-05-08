@@ -1,11 +1,11 @@
 {
-  "__guid": "325a4042-0696-43dd-a79d-dcc314299ba3",
+  "__guid": "84144b46-6b9c-4d5c-92f5-d4c407301a87",
   "GameObjects": [
     {
-      "__guid": "f7192e2f-1093-4cca-a93c-40cb86e20686",
+      "__guid": "c05827eb-29cb-49e3-9a67-587ed73d6e46",
       "__version": 2,
       "Flags": 0,
-      "Name": "MapLoader",
+      "Name": "Map",
       "Position": "0,0,0",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
@@ -19,7 +19,7 @@
       "Components": [
         {
           "__type": "Sandbox.MapInstance",
-          "__guid": "50042ecd-9dd2-457a-837c-0cda534d9eb8",
+          "__guid": "2941d1ef-7f51-423a-9dc7-ae8c3eb2c484",
           "__enabled": true,
           "Flags": 0,
           "__version": 1,
@@ -34,7 +34,7 @@
           "OnComponentUpdate": null,
           "OnMapLoaded": null,
           "OnMapUnloaded": null,
-          "UseMapFromLaunch": true
+          "UseMapFromLaunch": false
         }
       ],
       "Children": []
@@ -46,28 +46,22 @@
     "WantsSystemScene": true,
     "Metadata": {},
     "NavMesh": {
-      "Enabled": true,
+      "Enabled": false,
       "IncludeStaticBodies": true,
       "IncludeKeyframedBodies": true,
-      "EditorAutoUpdate": true,
+      "EditorAutoUpdate": false,
       "AgentHeight": 64,
       "AgentRadius": 16,
       "AgentStepSize": 18,
       "AgentMaxSlope": 40,
       "ExcludedBodies": "",
       "IncludedBodies": "",
-      "DeferGeneration": false,
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.SelectionSetsSystem": {
-        "Data": {
-          "SelectionSets": []
-        }
-      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "dd4a37ec-dffb-4fbc-aa65-678f6f878bfb"
+          "$blob": "f9b5ac5e-8805-4888-96db-6f03d0860195"
         }
       },
       "Sandbox.MovieMaker.MovieRecorderSystem": {
